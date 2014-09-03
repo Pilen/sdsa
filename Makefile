@@ -3,9 +3,9 @@ TEX_FILES=$(wildcard *.tex)
 
 default: compile
 
-compile: report 
+compile: report
 
-report: 
+report:
 	bibtex Online-Rental-System.tex
 	pdflatex Online-Rental-System.tex
 	pdflatex Online-Rental-System.tex
