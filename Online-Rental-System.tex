@@ -1,29 +1,29 @@
-% 
-% Template file for software architecture design description in the 
+%
+% Template file for software architecture design description in the
 % DIKU course Software Architecture and Software Design. Please do
 % not distribute outside the course
-% 
+%
 % Based on a template (c) by Woods and Rozanski (2011) available at
-% 
+%
 %    http://www.viewpoints-and-perspectives.info
-% 
+%
 % Instructions:
 %
 % 1) change the metadata commands below (\groupname) etc. to fit your
 %     project
-% 2) uncomment the overwriting of the \instructions command to remove 
+% 2) uncomment the overwriting of the \instructions command to remove
 %     instructions
 % 3) write your architectural description...
 %
 % Contact: klausmh@di.ku.dk
-% 
+%
 \documentclass[a4paper,11pt]{report}
 \usepackage{natbib}
 \usepackage[pdftex]{graphicx}
 \usepackage{color}
 \usepackage[table]{xcolor}
 \usepackage{hyperref}
-\usepackage{lastpage} 
+\usepackage{lastpage}
 
 % Meta-data for report
 \newcommand{\systemname}{Online Rental System}
@@ -31,7 +31,7 @@
 \newcommand{\contactdetails}{Henrik Bendt: gwk553@ku.dk\\Nicolai Willems ntb459@ku.dk\\Søren Egede Pilgård: vpb984@ku.dk}
 
 % Typesetting of instructions for using the template,
-% remove by renewing command 
+% remove by renewing command
 \newcommand{\instructions}[1]{
   \noindent\colorbox{lightgray}{%
     \parbox{\linewidth}{%
@@ -43,7 +43,7 @@
 % \renewcommand{\instructions}[1]{} % Uncomment to remove instructions
 
 % We use the below command for figure captions since
-% the figure environment does not play nicely with 
+% the figure environment does not play nicely with
 % \colorbox. The "real" way to create figures is like this:
 %   \begin{figure}[ht!]
 %     \centering
@@ -69,9 +69,9 @@
 
 
 \begin{document}
-% 
+%
 % Title page
-% 
+%
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 \begin{titlepage}
 
@@ -96,9 +96,9 @@
   \end{flushleft}
 \end{titlepage}
 
-% 
+%
 % Version table
-% 
+%
 \newpage
 \chapter*{Version history}
 
@@ -109,27 +109,27 @@
     Version & Date & Author & Comments \\
     \hline
     \hline
-    1 & 2014-09-03 & HB & Filling out ch 1 and 5.1
+    1 & 2014-09-03 & HB & Filling out ch 1 and 5.1\\
     \hline
   \end{tabular}
 \end{center}
 
-% 
+%
 % Table of contents
-% 
+%
 \setcounter{tocdepth}{1}
 \tableofcontents
 
-% 
+%
 % Main text
-% 
+%
 \chapter{Introduction}
 \label{cha:introduction}
 \thispagestyle{fancy}
 
 \instructions{Text typeset like this in an instruction on how to use
   the template. They should (of course) be removed in an architectural
-  description. 
+  description.
 
   In the LaTeX file for the template, this can be done by renewing the
   \texttt{{\textbackslash}instructions} command to output the empty string.
@@ -154,7 +154,7 @@
 \section{Audience}
 \label{sec:audience}
 
-\instructions{ 
+\instructions{
   Define the audience of the document.
 
   Probably the most important audience are the developers who will be
@@ -162,13 +162,13 @@
   paying for it. However there are a number of other stakeholders who
   have an interest in the AD, as listed in the System Stakeholders and
   Requirements chapter. And of course the architect is a stakeholder as
-  well.  
+  well.
 }
 
 \section{Status}
 \label{sec:status}
 
-\instructions{  
+\instructions{
 
   Explain the current status of the architecture and of this
   architectural description.
@@ -379,7 +379,7 @@ complaints is increasing).
 Ask yourself questions like the following: What are the key targets
 that you are setting yourself as the architect? Do you aim to reuse
 existing software? Or develop the system at minimum cost? Or are you
-aiming for very high reliability? Or ... ?  
+aiming for very high reliability? Or ... ?
 }
 
 \section{Constraints}
@@ -1184,7 +1184,7 @@ your architecture design.
 \chapter{Architectural prototype}
 \label{cha:arch-prot}
 \thispagestyle{fancy}
-\instructions{ 
+\instructions{
 Describe the architecture prototype that you developed
   including how to download and run it.
 }
@@ -1193,10 +1193,10 @@ Describe the architecture prototype that you developed
 
 
 
-% 
+%
 % Bibliography
-% 
-\bibliography{ad_template}
+%
+\bibliography{Online-Rental-System}
 \bibliographystyle{apalike}
 
 \end{document}
