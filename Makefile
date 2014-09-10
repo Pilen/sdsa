@@ -7,7 +7,7 @@ FIGURE_FILES=$(wildcard figures/*.svg)
 
 default: compile
 
-compile: figures report 
+compile: figures report
 
 report: $(FILE).tex
 	pdflatex $(FILE)
@@ -24,5 +24,5 @@ spell:
 	for file in $(TEX_FILES); do aspell --lang en_GB -t -c $$file; done
 
 clean:
-	rm Online-Rental-System.pdf
-	rm *.aux *.blg *.out *.bbl *.log
+	rm -f Online-Rental-System.pdf
+	rm -f *.aux *.blg *.out *.bbl *.log
