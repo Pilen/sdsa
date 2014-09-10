@@ -56,6 +56,9 @@
   Figure \arabic{figures}. #1
 }
 
+\setlength\parskip{1em}
+\setlength\parindent{0em}
+
 % Change font family to Helvetica
 \renewcommand{\rmdefault}{phv}
 \renewcommand{\sfdefault}{phv}
@@ -132,14 +135,15 @@
 \section{Purpose and scope}
 \label{sec:purpose-scope}
 The project is about developing an online renting system (as a website), from
-hereon reffered to as ORS. In the system it should be possible for users to rent
-out items to other users for a small fee and a safety deposit (in case of return
-of damaged items). When a user wants to rent a provided item, the system should
-provide the contact information to the providing user. The buisiness case is to
-take a small amount when providing the contact information.
+here on referred to as ORS. In the system it should be possible for users to
+rent out items to other users for a small fee (possibly none) and a safety
+deposit (in case of return of damaged items). When a user wants to rent a
+provided item, the system should provide the contact information to the
+providing user. The business case is to take a small percentage or amount from
+the rental fee when providing the contact information.
 
-Users should be able to search for specific items or item catagories,
-geografical locations, price ranges, etc. They should also be able to queue up
+Users should be able to search for specific items or item categories,
+geographical locations, price ranges, etc. They should also be able to queue up
 for a specific provided item (by another user) if it is already rented out or
 multiple other people are interested in renting the item.
 
