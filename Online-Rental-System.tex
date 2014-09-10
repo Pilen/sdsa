@@ -156,29 +156,29 @@ item up on ORS because it is easy and fast. Now, people in need of such electric
 saw contacts him without him doing anything but making the electric saw
 available for renters.
 
+The system is to be deployed and runned on a cloud system like Amazon Cloud. It should use an external paying system like Paypal.
+
 \subsection{Scope}
 \paragraph{Included}
 \begin{itemize}
-\item Things for rent
-\item Search
-\item Requests
-\item Billing + Deposits
-\item Website
-\item Tracking of things
-\item Website + Server-stuffs
+\item Supplie items for rent
+\item Search for items for rent
+\item Requests items for rent
+\item Billing + Deposits when renting
+\item Tracking of items rented out (which user, living where)
+\item Website handling the above
 \end{itemize}
 
 \paragraph{Excluded}
 \begin{itemize}
 \item Sales
-\item Errors + Damage to things
-\item Hardware stuffs
-\item Verification of transfers
+\item Errors + Damage to items -- handling these cases
+\item Hardware for the server -- we shall use a cloud solution.
+\item Verification of transfers (how to verify an item is physically rented/given to a user and returned again).
 \end{itemize}
 
 \section{Audience}
 \label{sec:audience}
-
 The primary purpose of this document is communictation between system architects
 and system developers designing and building the actual system.
 Further it can be used by sponsors and other stakeholders to get an overview of
@@ -186,8 +186,6 @@ the system.
 
 \section{Status}
 \label{sec:status}
-
-
 The system is currently undergoing architectual design, as we are developing
 the goals and ideas behind the system.
 
