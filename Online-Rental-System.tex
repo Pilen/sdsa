@@ -216,7 +216,7 @@ your intentions and what external/internal components are required.
         by} \\
     \hline
     Architect & Is interested in the success of the system and is very concerned
-        with the design and development. He is also concerned about the project 
+        with the design and development. He is also concerned about the project
         fulfilling the found/given requirements. He needs a requirements
         specification, and requires an assisting organization to carry
         out/develop the designed system. & ORS \\
@@ -323,7 +323,31 @@ your intentions and what external/internal components are required.
 \subsection{Context diagram}
 \label{sec:context-diagram}
 
-See figure \ref{fig:context}.
+\textit{ORS} consists of a primary central system based on a website.
+
+\textit{Users} are a key part, it consists of the different clients of the
+system, overall there are two kinds of users renters and owners of items, though
+the roles can overlap so we group them together into one entity.
+
+\textit{Admins} are internal to our organization, their responsibility is to run
+the system and perform ``maintenance'' and other tasks on the system, they will
+thus have their own way of interacting with it, separate from the users.
+
+We have decided to exclude managing of hardware from the scope of the project,
+instead we use a dedicated provider through a cloud service.
+The \textit{cloud} is thus an external service we rely on for availability of
+our system.
+
+To handle payment of rental fees and transferring of safety deposits we will
+use an external \textit{billing system}. We need this system to be able to
+handle users transferring money to us, and us to transfer money back to users.
+
+As part of an effort to expand knowledge both about ORS and for users to
+advertise what they have or what they need, we will hook into both
+\textit{facebook} and \textit{twitter}. This way we can raise awareness
+benefiting both our product and our users.
+
+To get an overview see figure \ref{fig:context}.
 
 \begin{figure}[h!]
   \centering
