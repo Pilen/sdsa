@@ -294,12 +294,63 @@ requirements. Their role is to dig into the requirements, and make them more
 
 \subsection{Functional scenarios}
 \label{sec:functional-scenarios}
-%TOOD
+The scenarios concerning the functionality of the system are listed and
+described below. The template is the one from \cite{rozanski2011software}
+chapter 10.
+
+\begin{description}
+    \item[Overview] R1 - A user creating an item in the system
+    \item[System state] The user is authenticated and logged in
+    \item[System environment] The environment has no issues
+    \item[External stimulus] The user submits a request to add an item for rent
+        in the database
+    \item[Required system response] The system shall start processing the
+        incoming record and tell the user, that their item will be added
+        shortly.
+\end{description}
+
+\begin{description}
+    \item[Overview] R2 - The user finds and rents an item
+    \item[System state] The system contains at least one item, that is
+        available for renting out.
+    \item[System environment] The system is in its normal environment, and the
+        person renting out, is ready to deliver.
+    \item[External stimulus] The user request the system to facilitate a
+        ``rent''
+    \item[Required system response] The system shall notify the person renting
+        out about interest, afterwards it shall notify the interested party on
+        the availability of the requested item.
+\end{description}
 
 
 \subsection{System quality scenarios}
 \label{sec:syst-qual-scen}
-%TOOD
+This section closely mimics the previous, but concerns the quality scenarios
+instead.
+
+\begin{description}
+    \item[Overview] Q1 - A user tries to access an item while the system is
+        under heavy load.
+    \item[System state] The system is in its normal working condition, with at
+        least one user signed up
+    \item[System environment] The system is working correctly and has 10.000
+        active users pr minute
+    \item[Environment change] A spike in traffic, at around 100.000 users pr
+        minute, accessing the system.
+    \item[Required system behavior] The system is expected to scale within the
+        first 10 seconds, and return error pages to less than 10.000 users.
+\end{description}
+
+\begin{description}
+    \item[Overview] Q3 - A user rents an item under normal load
+    \item[System state] The system has at least two users has signed up, one
+        renting out another renting.
+    \item[System environment] The system is handling its average 10.000 users pr
+        minute, the system' environment is functioning normally.
+    \item[Environment change] A user asks to rent an item
+    \item[Required system behavior] The system is expected to respond to
+        incoming requests in less than 0.1 second
+\end{description}
 
 
 \chapter{Architectural forces}
