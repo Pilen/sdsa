@@ -40,7 +40,7 @@
   }%
  \vspace{0.1cm}
 }
-\renewcommand{\instructions}[1]{} % Uncomment to remove instructions
+% \renewcommand{\instructions}[1]{} % Uncomment to remove instructions
 
 % We use the below command for figure captions since
 % the figure environment does not play nicely with
@@ -115,8 +115,6 @@
     1 & 2014-09-03 & HB & Filling out ch 1 and 5.1\\
     \hline
     2 & 2014-09-08 & NW & Adding figure and group name \\
-    \hline
-    3 & 2014-09-10 & ALL & Corrections for G1 and start on G2 \\
   \end{tabular}
 \end{center}
 
@@ -155,13 +153,12 @@ A scenario could be a person, owning an electric saw, which he is not using, but
 don't want to sell. He could then be interested in making some money off this
 item, by renting it to people in his area (for example his home city Copenhagen,
 or maybe in all of Sjælland, etc.). Instead of setting up fliers in his local
-area (like in the local grocery store, local sports centre, etc.) he puts the
+area (like in the local grocery store, local sports center, etc.) he puts the
 item up on ORS because it is easy and fast. Now, people in need of such electric
 saw contacts him without him doing anything but making the electric saw
 available for renters.
 
-The system is to be deployed and run on a cloud system like Amazon Cloud. It
-should use an external paying system like Paypal.
+The system is to be deployed and runned on a cloud system like Amazon Cloud. It should use an external paying system like Paypal.
 
 \subsection{Scope}
 \paragraph{Included}
@@ -218,43 +215,22 @@ your intentions and what external/internal components are required.
     \textbf{Stakeholder} & \textbf{Interest, needs and concerns} & \textbf{Held
         by} \\
     \hline
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    Architect & Is interested in the success of the system and is very concerned
-        with the design and development. He is also concerned about the project
-        fulfilling the found/given requirements. He needs a requirements
-        specification, and requires an assisting organization to carry
-=======
-=======
->>>>>>> Stashed changes
     Architect & Interested in the success of the system and is very concerned
         with the design and development. He is also concerned about the project 
         fulfilling the found/given requirements. He needs a requirement
         specification and requires an assisting organization to carry
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         out/develop the designed system. & ORS \\
     \hline
     Users &  Interested in a well-functioning and highly available product,
         with high standards on security in transactions of items. Their needs
-        are based on the idea that they either provide imems or would like to
+        are based on the idea that they either provide items or would like to
         ``rent'' an item. They are primarily concerned with their personal
         security and the well-being of the rented item in question & Everyone \\
     \hline
     Acquirers &   & \\
     \hline
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    Assessors & interest mainly revolves around the legality and validity of
-        the protocols surrounding the system. Their needs are in the area of
-=======
-=======
->>>>>>> Stashed changes
     Assessors & Interested mainly around the legality and validity of the
         protocols surrounding the system. Their needs are in the area of
->>>>>>> Stashed changes
         transparency and documentation of the system, such that the are able to
         assess the system. & Lawyers and ORS Legal team, maybe external
         accountants\\
@@ -281,7 +257,6 @@ your intentions and what external/internal components are required.
 
 \section{Overview of requirements}\label{sec:overv-requ}
 %TOOD
-\begin{table}
 \begin{center}
   \begin{tabular}[h]{| l |  l |}
     \hline
@@ -291,7 +266,7 @@ your intentions and what external/internal components are required.
     \hline
     R2 & User finding and renting item (usability)\\
     \hline
-    R3 & Administrator removing item from site (usability)\\
+    R3 & Admin removing item from site (usability)\\
     \hline
     R4 & Many users try to rent same item (usability, accessability)\\
     \hline
@@ -303,22 +278,15 @@ your intentions and what external/internal components are required.
     \hline
   \end{tabular}
 \end{center}
-\end{table}
 
 \section{System scenarios}
 \label{sec:system-scenarios}
-<<<<<<< Updated upstream
 The following two sections tries to describe scenarios related to the above
 requirements. Their role is to dig into the requirements, and make them more
 ``alive''.
 =======
-%TOOD
+%TODO
 %For example overall security of system from start to end
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-
 
 \subsection{Functional scenarios}
 \label{sec:functional-scenarios}
@@ -409,31 +377,7 @@ instead.
 \subsection{Context diagram}
 \label{sec:context-diagram}
 
-\textit{ORS} consists of a primary central system based on a website.
-
-\textit{Users} are a key part, it consists of the different clients of the
-system, overall there are two kinds of users renters and owners of items, though
-the roles can overlap so we group them together into one entity.
-
-\textit{Admins} are internal to our organization, their responsibility is to run
-the system and perform ``maintenance'' and other tasks on the system, they will
-thus have their own way of interacting with it, separate from the users.
-
-We have decided to exclude managing of hardware from the scope of the project,
-instead we use a dedicated provider through a cloud service.
-The \textit{cloud} is thus an external service we rely on for availability of
-our system.
-
-To handle payment of rental fees and transferring of safety deposits we will
-use an external \textit{billing system}. We need this system to be able to
-handle users transferring money to us, and us to transfer money back to users.
-
-As part of an effort to expand knowledge both about ORS and for users to
-advertise what they have or what they need, we will hook into both
-\textit{facebook} and \textit{twitter}. This way we can raise awareness
-benefiting both our product and our users.
-
-To get an overview see figure \ref{fig:context}.
+See figure \ref{fig:context}.
 
 \begin{figure}[h!]
   \centering
