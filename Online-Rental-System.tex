@@ -24,6 +24,7 @@
 \usepackage[table]{xcolor}
 \usepackage{hyperref}
 \usepackage{lastpage}
+\usepackage{longtable}
 
 % Meta-data for report
 \newcommand{\systemname}{Online Rental System}
@@ -209,9 +210,10 @@ your intentions and what external/internal components are required.
 
 \section{Stakeholders}
 \label{sec:stakeholders}
-\begin{table}
+Here are the stakeholders, their interest and concerns about the system and whom their role is fulfilled by in ORS.
+%\begin{table}[H]
 \begin{center}
-    \begin{tabular}[h]{| l |  p{6cm} | l |}
+    \begin{longtable}[H]{| l |  p{6cm} | p{2cm} |}
     \hline
     \textbf{Stakeholder} & \textbf{Interest, needs and concerns} & \textbf{Held
         by} \\
@@ -252,9 +254,10 @@ your intentions and what external/internal components are required.
     \hline
     Testers & Interested in early access to the system along with the stability and functionality of the system, which they test. & Possible early users\\
     \hline
-  \end{tabular}
+  \end{longtable}
 \end{center}
-\end{table}
+%\end{table}
+
 
 \section{Overview of requirements}\label{sec:overv-requ}
 %TOOD
