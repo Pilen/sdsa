@@ -133,6 +133,7 @@
 \label{cha:introduction}
 \thispagestyle{fancy}
 
+In this report we define a person who rent out items as a \textit{seller} and a person who rent items as a \textit{buyer}. We shall try to be consistent with this convention.
 
 \section{Purpose and scope}
 \label{sec:purpose-scope}
@@ -260,7 +261,6 @@ Here are the stakeholders, their interest and concerns about the system and whom
 
 
 \section{Overview of requirements}\label{sec:overv-requ}
-%TOOD
 \begin{center}
   \begin{tabular}[h]{| l |  l |}
     \hline
@@ -356,13 +356,64 @@ instead.
 
 \section{Goals}
 \label{sec:goals}
+%Ask yourself questions like the following: What are the key targets that you
+%are setting yourself as the architect? Do you aim to reuse existing software?
+%Or develop the system at minimum cost? Or are you aiming for very high
+%reliability? Or ... ?
+
+Functional goals:
+\begin{description}
+  \item[satG1] A user shall be able to rent an item.
+  \item[satG2] A user shall be able to rent out an item.
+  \item[satG3] The system shall be able to recieve payments and forward payments.
+  \item[infG1] A user shall be informed about the availability of a given item within 24 hours.
+  \item[infG2] A user shall be able to view evaluations of items.
+\end{description}
+where satG is ``satisfaction goal'' and infG is ``information goal''.
+
+Non-functional goals:
+\begin{description}
+  \item[devG1] We shall seek to reuse as many components already available as possible, to limit the development time as much as possible.
+  \item[qosG1] We shall seek to maintain the uptime of the site as high as possible.
+  \item[qosG2] The system shall keep personal information (like name, address, etc.) secure.
+  \item[qosG3] The system shall keep personal information apart from the items. %TODO maybe explain
+  \item[qosG4] The system shall not handle payment information --  this should be handled by an external party.
+  \item[arcG1] We shall determine the role of the system in relation to the seller and the buyer.
+\end{description}
+where devG is ``development goal'', qosG is ``quality of service goal'' and arcG is ``architectural constraints goal''.
 
 
 \section{Constraints}
 \label{sec:constraints}
+\begin{description}
+  \item[] The system employs client-server model.
+  \item[] The system employs $n$-layer architecture (e.g. a front-end, an application server, a database server, etc.).
+  \item[] The front-end GUI of the system is written in HTML and corresponding technologies.
+  \item[] The system must be independent from hardware specifications, as we do not know what it will run on (only that it will be runned on a cloud solution).
+\end{description}
 
 \section{Architectural principles}
 \label{sec:arch-princ}
+\begin{center}
+  \begin{tabular}[h!]{| >{\columncolor{gray}}p{0.28\textwidth} | p{0.65\textwidth} |}
+    \hline
+    Principle reference & P1. Use of open source\\
+    \hline
+    Principle statement & ORS uses, where possible, only open source components, both externally and internally. \\
+    \hline
+    Rationale & Open source software is free and thus supports a cheaper solution with no licensing problems. With the limited amount of capital involved in the project, open source adds much functionality for free.\\
+    \hline
+    Implications & 
+      \begin{itemize}
+        \item Limited support for the use of open source components -- we do not pay anyone for this support, and are thus dependent on the community of the component.
+        \item Extra care must be taken with respect to open source components licenses, as these may be diverse and imply special use of these components.
+        \item Extension of open source components is possible (with respect to the given license).
+      \end{itemize}\\
+    \hline
+  \end{tabular}
+\end{center}
+
+
 
 
 \chapter{Architectural views}
