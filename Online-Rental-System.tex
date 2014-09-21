@@ -387,13 +387,13 @@ where devG is ``development goal'', qosG is ``quality of service goal'' and arcG
 \section{Constraints}
 \label{sec:constraints}
 We have the following constraints
-\begin{description}
-  \item[] The system employs client-server model.
-  \item[] The system employs $n$-layer architecture (e.g. a front-end, an application server, a database server, etc.).
-  \item[] The front-end GUI of the system is written in HTML and corresponding technologies.
-  \item[] The system must be independent from hardware specifications, as we do not know what it will run on (only that it will be runned on a cloud solution).
-  \item[] All technical interactions in the system and user transactions must be logged.
-\end{description}
+\begin{itemize}
+  \item The system employs client-server model.
+  \item The system employs $n$-layer architecture (e.g. a front-end, an application server, a database server, etc.).
+  \item The front-end GUI of the system is written in HTML and corresponding technologies.
+  \item The system must be independent from hardware specifications, as we do not know what it will run on (only that it will be runned on a cloud solution).
+  \item All technical interactions in the system and user transactions must be logged.
+\end{itemize}
 
 
 \section{Architectural principles}
@@ -665,10 +665,29 @@ The two former functional scenarios are here presented in sequence diagrams.
 
 \subsection{System-wide processing}
 \label{sec:syst-wide-proc}
+Multiple events, like errors in message delivery (due to for example congestion on the network), can have effect on the whole system.
+The system is build around Remote Procedure Calls (RPCs), implemented as messages, send over network via HTTP/HTTPS to different components (possible on different machines) handling different sides of data processing. Thus it is important to use selected schemes to handle for example atomicity, consistency, durability, etc. across all components in a consistent way -- the chain is only as strong as its weakest link.
 
+We shall therefore use the ACID-methodology between clients and components:
+\begin{itemize}
+    \item \textbf{A}tomicity: all RPCs are atomic.
+    \item \textbf{C}onsistency: all RPC are consistent (changes the component from one state to another).
+    \item \textbf{I}solation: all RPCs have before-or-after atomicity.
+    \item \textbf{D}urability: logging of RPCs ensures that the results of a done (commited) RPC is persistent.
+\end{itemize}
+such that the system is atomic, consistent, durable (at least with respect to persistent data).
 
+We shall implement ACID using for example BASE (in the following, component refers to instance of thereof, not the abstract notion of component. Thus by a fail-stop of a component is meant the fail-stop of an instance of this component):
+\begin{itemize}
+    \item \textbf{B}asically-\textbf{A}vailable: Only failed components (read instances thereof) become unavailable, not any other components (especially not the whole system).
+    \item \textbf{S}oft-state: Components can fail (fail-stop) without affecting availability of other components, but components may be out-of-date, e.g. an execution of a step, like registering an item, might not have returned and/or updated an item correctly before a crash of either one.
+    \item \textbf{E}ventually consistent: Asynchronous calls between components ensures that an update step in the data flow is eventually executed, and that the component making the update is eventually consistent. For example an added item might not be visible to all other users as soon as the user admitting the item gets a notification of success -- but it will eventually be visible to all others.
+\end{itemize}
+When talking about asynchronous calls, this is only meant to be implemented internally -- users should not use asynchronous calls, as users needs responses of success or failure shortly after making an data updating/changing request, like removing or adding an item. But note that this does not mean that a successful request of adding an item can be seen by all other users.
 
+To enable ACID, we shall also use a log-everything-scheme, meaning that every process is logged at each component. Thus errors can always be detected and or handled, if not at runtime, then later when running through the logs. Of course this needs special attention to make logs isolated from logs of other processes (e.g. so that we with certainty can say which process did a step first).
 
+%TODO; maybe add an example
 
 \section{Information view}
 \label{cha:information-view}
