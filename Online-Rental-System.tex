@@ -388,6 +388,7 @@ We have the following constraints
   \item[] The system employs $n$-layer architecture (e.g. a front-end, an application server, a database server, etc.).
   \item[] The front-end GUI of the system is written in HTML and corresponding technologies.
   \item[] The system must be independent from hardware specifications, as we do not know what it will run on (only that it will be runned on a cloud solution).
+  \item[] All technical interactions in the system and user transactions must be logged.
 \end{description}
 
 
@@ -509,12 +510,12 @@ These are the functional elements as presented in figure \ref{fig:funcView}.
 \begin{center}
   \begin{tabular}[h!]{| >{\columncolor{gray}}p{0.28\textwidth} | p{0.65\textwidth} |}
     \hline
-    Element name & Webserver\\
+    Element name & Handler\\
     \hline
     Responsibilities &
     \begin{itemize}
-      \item Receives user data and stores these.
-      \item Provides stored data to internal components
+      \item Forwards user requests to Application layer
+      \item Returns answers as a HTML-page
     \end{itemize}\\
     \hline
     Interfaces -- required & See figure \ref{fig:funcView}\\
@@ -527,14 +528,105 @@ These are the functional elements as presented in figure \ref{fig:funcView}.
 \begin{center}
   \begin{tabular}[h!]{| >{\columncolor{gray}}p{0.28\textwidth} | p{0.65\textwidth} |}
     \hline
-    Element name & Application server\\
+    Element name & Render\\
     \hline
     Responsibilities &
     \begin{itemize}
-      \item Handling requests from a client
-      \item Retrieve data from the webserver
-      \item Do computations on the data
-      \item Return results from above actions
+      \item Returns the HTML for a requested page.
+    \end{itemize}\\
+    \hline
+    Interfaces -- required & See figure \ref{fig:funcView}\\
+    \hline
+    Interfaces -- provided & See figure \ref{fig:funcView}\\
+   \hline
+  \end{tabular}
+\end{center}
+
+\begin{center}
+  \begin{tabular}[h!]{| >{\columncolor{gray}}p{0.28\textwidth} | p{0.65\textwidth} |}
+    \hline
+    Element name & Action Control\\
+    \hline
+    Responsibilities &
+    \begin{itemize}
+      \item Directs user requests
+    \end{itemize}\\
+    \hline
+    Interfaces -- required & See figure \ref{fig:funcView}\\
+    \hline
+    Interfaces -- provided & See figure \ref{fig:funcView}\\
+   \hline
+  \end{tabular}
+\end{center}
+
+\begin{center}
+  \begin{tabular}[h!]{| >{\columncolor{gray}}p{0.28\textwidth} | p{0.65\textwidth} |}
+    \hline
+    Element name & Query handler\\
+    \hline
+    Responsibilities &
+    \begin{itemize}
+      \item Translate requests to queries for
+        \begin{itemize} 
+          \item Adding item
+          \item Removing item
+          \item Find item
+          \item Queuing to item
+        \end{itemize}
+    \end{itemize}\\
+    \hline
+    Interfaces -- required & See figure \ref{fig:funcView}\\
+    \hline
+    Interfaces -- provided & See figure \ref{fig:funcView}\\
+   \hline
+  \end{tabular}
+\end{center}
+
+\begin{center}
+  \begin{tabular}[h!]{| >{\columncolor{gray}}p{0.28\textwidth} | p{0.65\textwidth} |}
+    \hline
+    Element name & Item Store\\
+    \hline
+    Responsibilities &
+    \begin{itemize}
+      \item Interface for the storing and handling of items.
+    \end{itemize}\\
+    \hline
+    Interfaces -- required & See figure \ref{fig:funcView}\\
+    \hline
+    Interfaces -- provided & See figure \ref{fig:funcView}\\
+   \hline
+  \end{tabular}
+\end{center}
+
+\begin{center}
+  \begin{tabular}[h!]{| >{\columncolor{gray}}p{0.28\textwidth} | p{0.65\textwidth} |}
+    \hline
+    Element name & Transaction\\
+    \hline
+    Responsibilities &
+    \begin{itemize}
+      \item Handles transactions for renting out items; seller to buyer
+      \item Handles transactions for returning items; buyer to seller
+      \item Redirects billing to third party billing service
+      \item Asserts items exists
+    \end{itemize}\\
+    \hline
+    Interfaces -- required & See figure \ref{fig:funcView}\\
+    \hline
+    Interfaces -- provided & See figure \ref{fig:funcView}\\
+   \hline
+  \end{tabular}
+\end{center}
+
+\begin{center}
+  \begin{tabular}[h!]{| >{\columncolor{gray}}p{0.28\textwidth} | p{0.65\textwidth} |}
+    \hline
+    Element name & Event Log\\
+    \hline
+    Responsibilities &
+    \begin{itemize}
+      \item Logs transactions between users (renting of an item, returning of an item)
     \end{itemize}\\
     \hline
     Interfaces -- required & See figure \ref{fig:funcView}\\
@@ -549,8 +641,12 @@ These are the functional elements as presented in figure \ref{fig:funcView}.
 \label{sec:functional-scenarios-1}
 
 
+
 \subsection{System-wide processing}
 \label{sec:syst-wide-proc}
+
+
+
 
 
 \section{Information view}
