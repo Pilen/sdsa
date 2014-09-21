@@ -19,6 +19,8 @@ report: $(FILE).tex
 figures:
 	# for figure_file in $(FIGURE_FILES); do inkscape -z -D --file=$$figure_file --export=$$figure_file; done
 	inkscape -z -D --file=figures/context_drawing.svg --export-pdf=figures/context_drawing.pdf
+	inkscape -z -D --file=figures/r1-sequence.svg --export-pdf=figures/r1-sequence.pdf
+	inkscape -z -D --file=figures/r2-sequence.svg --export-pdf=figures/r2-sequence.pdf
 
 spell:
 	for file in $(TEX_FILES); do aspell --lang en_GB -t -c $$file; done
