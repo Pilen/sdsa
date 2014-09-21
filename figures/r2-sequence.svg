@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+<svg width="34.706cm" height="26.775cm" viewBox="7.580 4.700 42.286 31.475"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<line x1="19.001" y1="6.150" x2="19.001" y2="7.600" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<line x1="19.001" y1="27.600" x2="19.001" y2="31.350" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<rect x="18.651" y="7.600" width="0.700" height="20.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="18.651" y="7.600" width="0.700" height="20.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<line x1="25.646" y1="6.150" x2="25.646" y2="17.575" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<line x1="25.646" y1="27.575" x2="25.646" y2="31.450" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<rect x="25.296" y="17.575" width="0.700" height="10.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="25.296" y="17.575" width="0.700" height="10.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<line x1="30.884" y1="8.623" x2="19.351" y2="8.600" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="30.883,8.873 31.684,8.625 30.884,8.373 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="30.883,8.873 31.684,8.625 30.884,8.373 "/>
+<text x="26.799" y="8.409"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Authenticate</text>
+<ellipse cx="8.880" cy="12.381" rx="0.300" ry="0.300" fill="#FFFFFF" stroke="none"  /><ellipse cx="8.880" cy="12.381" rx="0.300" ry="0.300" fill="none" stroke="#000000"  stroke-width="0.100" /><line x1="7.680" y1="12.981" x2="10.080" y2="12.981" stroke="#000000" stroke-width="0.100" />
+<line x1="8.880" y1="12.681" x2="8.880" y2="14.181" stroke="#000000" stroke-width="0.100" />
+<line x1="8.880" y1="14.181" x2="7.680" y2="15.481" stroke="#000000" stroke-width="0.100" />
+<line x1="8.880" y1="14.181" x2="10.080" y2="15.481" stroke="#000000" stroke-width="0.100" />
+<text x="8.880" y="16.676"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+User</text>
+<line x1="17.878" y1="7.952" x2="10.130" y2="11.481" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="17.981,8.180 18.606,7.621 17.774,7.725 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="17.981,8.180 18.606,7.621 17.774,7.725 "/>
+<text x="14.453" y="9.297"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Authenticate</text>
+<rect x="16.330" y="4.750" width="5.342" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="16.330" y="4.750" width="5.342" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="19.001" y="5.700"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+Webserver</text>
+<rect x="23.895" y="4.750" width="3.503" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="23.895" y="4.750" width="3.503" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="25.646" y="5.700"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+Broker</text>
+<line x1="32.084" y1="6.150" x2="32.084" y2="8.625" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<line x1="32.084" y1="10.625" x2="32.084" y2="31.450" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<rect x="31.734" y="8.625" width="0.700" height="2.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="31.734" y="8.625" width="0.700" height="2.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="29.139" y="4.750" width="5.890" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="29.139" y="4.750" width="5.890" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="32.084" y="5.700"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+UserService</text>
+<line x1="20.201" y1="10.602" x2="31.734" y2="10.625" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40"/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="20.202,10.352 19.401,10.600 20.201,10.852 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="20.202,10.352 19.401,10.600 20.201,10.852 "/>
+<line x1="17.816" y1="12.755" x2="10.130" y2="14.181" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="17.861,13.001 18.602,12.609 17.770,12.509 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="17.861,13.001 18.602,12.609 17.770,12.509 "/>
+<text x="14.999" y="12.934"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+LookupItem</text>
+<line x1="39.895" y1="6.150" x2="39.895" y2="13.675" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<line x1="39.895" y1="15.675" x2="39.895" y2="18.375" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<rect x="39.545" y="13.675" width="0.700" height="2.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="39.545" y="13.675" width="0.700" height="2.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="37.554" y="4.750" width="4.682" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="37.554" y="4.750" width="4.682" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="39.895" y="5.700"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+ItemData</text>
+<line x1="38.745" y1="13.672" x2="19.351" y2="13.600" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="38.744,13.922 39.545,13.675 38.746,13.422 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="38.744,13.922 39.545,13.675 38.746,13.422 "/>
+<text x="29.024" y="13.525"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+LookupItem</text>
+<line x1="20.201" y1="15.603" x2="39.545" y2="15.675" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40"/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="20.202,15.353 19.401,15.600 20.200,15.853 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="20.202,15.353 19.401,15.600 20.200,15.853 "/>
+<line x1="24.446" y1="17.579" x2="19.351" y2="17.600" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="24.447,17.829 25.246,17.575 24.445,17.329 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="24.447,17.829 25.246,17.575 24.445,17.329 "/>
+<text x="21.974" y="17.275"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+CheckAvailable</text>
+<line x1="20.201" y1="19.596" x2="25.296" y2="19.575" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40"/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="20.200,19.346 19.401,19.600 20.202,19.846 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="20.200,19.346 19.401,19.600 20.202,19.846 "/>
+<line x1="10.809" y1="14.693" x2="18.651" y2="20.600" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40"/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="10.959,14.493 10.170,14.211 10.659,14.892 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="10.959,14.493 10.170,14.211 10.659,14.892 "/>
+<text x="15.749" y="17.225"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+ItemStatus</text>
+<line x1="17.945" y1="22.126" x2="10.130" y2="16.881" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="17.806,22.334 18.610,22.572 18.085,21.919 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="17.806,22.334 18.610,22.572 18.085,21.919 "/>
+<text x="15.400" y="19.900"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Rent</text>
+<line x1="24.446" y1="23.579" x2="19.351" y2="23.600" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="24.447,23.829 25.246,23.575 24.445,23.329 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="24.447,23.829 25.246,23.575 24.445,23.329 "/>
+<text x="22.150" y="23.400"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+RentItem</text>
+<line x1="20.201" y1="27.596" x2="25.296" y2="27.575" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40"/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="20.200,27.346 19.401,27.600 20.202,27.846 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="20.200,27.346 19.401,27.600 20.202,27.846 "/>
+<line x1="25.996" y1="24.575" x2="29.550" y2="24.575" stroke="#000000" stroke-width="0.100" />
+<line x1="29.550" y1="24.575" x2="29.550" y2="26.700" stroke="#000000" stroke-width="0.100" />
+<line x1="26.846" y1="26.700" x2="29.550" y2="26.700" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="26.846,26.450 26.046,26.700 26.846,26.950 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="26.846,26.450 26.046,26.700 26.846,26.950 "/>
+<text x="32.000" y="25.950"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+ChangeStatus</text>
+<line x1="10.659" y1="17.547" x2="18.651" y2="27.600" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40"/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="10.855,17.391 10.161,16.920 10.463,17.702 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="10.855,17.391 10.161,16.920 10.463,17.702 "/>
+</svg>
