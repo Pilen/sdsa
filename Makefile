@@ -21,6 +21,7 @@ figures:
 	inkscape -z -D --file=figures/context_drawing.svg --export-pdf=figures/context_drawing.pdf
 	inkscape -z -D --file=figures/r1-sequence.svg --export-pdf=figures/r1-sequence.pdf
 	inkscape -z -D --file=figures/r2-sequence.svg --export-pdf=figures/r2-sequence.pdf
+	inkscape -z -D --file=figures/functional-view.svg --export-pdf=figures/functional-view.pdf
 
 spell:
 	for file in $(TEX_FILES); do aspell --lang en_GB -t -c $$file; done
