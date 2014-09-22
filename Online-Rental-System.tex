@@ -75,6 +75,10 @@
 % Added commands for good stuff
 \newcommand{\seller}{ seller }
 \newcommand{\buyer}{ buyer }
+\newcommand{\buyers}{ buyers }
+\newcommand{\Seller}{ Seller }
+\newcommand{\Buyer}{ Buyer }
+\newcommand{\Buyers}{ Buyers }
 
 \begin{document}
 %
@@ -121,6 +125,8 @@
     \hline
     2 & 2014-09-08 & NW & Adding figure and group name \\
     \hline
+    3 & 2014-09-22 & NW & Figures for functional scenarios added \\
+    \hline
   \end{tabular}
 \end{center}
 
@@ -137,7 +143,9 @@
 \label{cha:introduction}
 \thispagestyle{fancy}
 
-In this report we define a person who rent out items as a \textit{seller} and a person who rent items as a \textit{buyer}. We shall try to be consistent with this convention.
+In this report we define a person who rent out items as a \textit{seller} and a
+person who rent items as a \textit{buyer}. We shall try to be consistent with 
+this convention.
 
 \section{Purpose and scope}
 \label{sec:purpose-scope}
@@ -165,7 +173,8 @@ item up on ORS because it is easy and fast. Now, people in need of such electric
 saw contacts him without him doing anything but making the electric saw
 available for renters.
 
-The system is to be deployed and runned on a cloud system like Amazon Cloud. It should use an external paying system like Paypal.
+The system is to be deployed and run on a cloud system like Amazon Cloud. It
+should use an external payment system like PayPal.
 
 \subsection{Scope}
 \paragraph{Included}
@@ -199,7 +208,7 @@ The system is currently undergoing architectual design, as we are developing
 the goals and ideas behind the system.
 
 Our future plans include developing an architectual prototype, that shall show
-your intentions and what external/internal components are required.
+our intentions and what external/internal components are required.
 
 \section{Architectural design approach}
 \label{sec:arch-design-appr}
@@ -235,7 +244,9 @@ Here are the stakeholders, their interest and concerns about the system and whom
         ``rent'' an item. They are primarily concerned with their personal
         security and the well-being of the rented item in question & Everyone \\
     \hline
-    Acquirers & Interested in a successful and relative quick launch of the system along with the business model of the system and eventual marketing and advertising. & Possible investors, ORS owners \\
+    Acquirers & Interested in a successful and relative quick launch of the 
+        system along with the business model of the system and eventual 
+        marketing and advertising. & Possible investors, ORS owners \\
     \hline
     Assessors & Interested mainly around the legality and validity of the
         protocols surrounding the system. Their needs are in the area of
@@ -243,21 +254,38 @@ Here are the stakeholders, their interest and concerns about the system and whom
         assess the system. & Lawyers and ORS Legal team, maybe external
         accountants\\
     \hline
-    Communicators & Interested in the creation of the license agreements and rental contracts for the site. & Lawyers and ORS Legal team\\
+    Communicators & Interested in the creation of the license agreements and 
+        rental contracts for the site. & Lawyers and ORS Legal team\\
     \hline
-    Developers & Interested in the design of the software system and is concerned with the modularity (that the system is easy to maintain/expand) and performance. & ORS Development team\\
+    Developers & Interested in the design of the software system and is 
+        concerned with the modularity (that the system is easy to 
+        maintain/expand) and performance. & ORS Development team\\
     \hline
-    Maintainers & Interested in the modularity of the system, defining how easy the system is to fix and expand, along with the platform (here Amazon Cloud) the system is to be runned on. & ORS Admins \\
+    Maintainers & Interested in the modularity of the system, defining how easy
+        the system is to fix and expand, along with the platform (here Amazon 
+        Cloud) the system is to be runned on. & ORS Admins \\
     \hline
-    Production Engineers & Interested in the different parts of the system (including external systems like Paypal), the ease of deployment of the system and the platform it runs on. & Amazon and ORS Admins\\
+    Production Engineers & Interested in the different parts of the system 
+        (including external systems like Paypal), the ease of deployment of the
+        system and the platform it runs on. & Amazon and ORS Admins\\
     \hline
-    Suppliers & Interested in the use and integration of their external systems (for example the billing system of Paypal and the Amazon cloud). & Paypal, Amazon\\
+    Suppliers & Interested in the use and integration of their external systems
+        (for example the billing system of Paypal and the Amazon cloud). 
+        & Paypal, Amazon\\
     \hline
-    Support Staff & Interested in the functionality and stability of the system, along with the usability; how easy it is to administrate users and to use the site. & ORS Admins \\
+    Support Staff & Interested in the functionality and stability of the system,
+        along with the usability; how easy it is to administrate users and to 
+        use the site. & ORS Admins \\
     \hline
-    System Administrators & Interested in the stability and accessibility to the system (when using Amazon cloud, what kind of access do we have to it and how much control do we have) and the platform/hardware it is runned on, giving and idea of how easy it is to fix eventual problems, with respect to both software and hardware. & ORS Admins and Amazon \\
+    System Administrators & Interested in the stability and accessibility to 
+        the system (when using Amazon cloud, what kind of access do we have to 
+        it and how much control do we have) and the platform/hardware it is run
+        on, giving and idea of how easy it is to fix eventual problems, with 
+        respect to both software and hardware. & ORS Admins and Amazon \\
     \hline
-    Testers & Interested in early access to the system along with the stability and functionality of the system, which they test. & Possible early users\\
+    Testers & Interested in early access to the system along with the stability
+        and functionality of the system, which they test. 
+        & Possible early users\\
     \hline
   \end{longtable}
 \end{center}
@@ -270,13 +298,13 @@ Here are the stakeholders, their interest and concerns about the system and whom
     \hline
     \textbf{Reference} & \textbf{Requirement description} \\
     \hline
-    R1 & User creating an item to rent out (usability)\\
+    R1 & \Seller creating an item to rent out (usability)\\
     \hline
-    R2 & User finding and renting item (usability)\\
+    R2 & \Buyer finding and renting item (usability)\\
     \hline
     R3 & Admin removing item from site (usability)\\
     \hline
-    R4 & Many users try to rent same item (usability, accessibility)\\
+    R4 & Many \buyers try to rent same item (usability, accessibility)\\
     \hline
     Q1 & A user tries to access an item under heavy load (performance, availability)\\
     \hline
@@ -300,7 +328,7 @@ described below. The template is the one from \cite{rozanski2011software}
 chapter 10.
 
 \begin{description}
-    \item[Overview] R1 - A user creating an item in the system
+    \item[Overview] R1 - \Seller creating an item in the system
     \item[System state] The user is authenticated and logged in
     \item[System environment] The environment has no issues
     \item[External stimulus] The user submits a request to add an item for rent
@@ -311,7 +339,7 @@ chapter 10.
 \end{description}
 
 \begin{description}
-    \item[Overview] R2 - The user finds and rents an item
+    \item[Overview] R2 - \Buyer finds and rents an item
     \item[System state] The system contains at least one item, that is
         available for renting out.
     \item[System environment] The system is in its normal environment, and the
@@ -323,6 +351,27 @@ chapter 10.
         the availability of the requested item.
 \end{description}
 
+\begin{description}
+    \item[Overview] R3 - Administrator removes an item from the site
+    \item[System state] The system contains at least one item, that has a
+        status of ``available for renting out''.
+    \item[System environment] The system is in its normal environment.
+    \item[External stimulus] The administrator deletes and item from the system 
+    \item[Required system response] The system shall notify the \seller about
+        the deletion, furthermore the deleted item shall not be shown on-site
+        to any users.
+\end{description}
+
+\begin{description}
+    \item[Overview] R4 - Many \buyers try to rent the same item
+    \item[System state] The system contains at least one item, that has a
+        status of ``available for renting out''. And at least 2 \buyers.
+    \item[System environment] The system is in its normal environment.
+    \item[External stimulus] The administrator deletes and item from the system 
+    \item[Required system response] The system shall notify the \seller about
+        the deletion, furthermore the deleted item shall not be shown on-site
+        to any users.
+\end{description}
 
 \subsection{System quality scenarios}
 \label{sec:syst-qual-scen}
