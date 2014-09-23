@@ -143,8 +143,8 @@
 \label{cha:introduction}
 \thispagestyle{fancy}
 
-In this report we define a person who rent out items as a \textit{seller} and a
-person who rent items as a \textit{buyer}. We shall try to be consistent with 
+In this report we define a person who rent out items as a \textit{\seller} and a
+person who rent items as a \textit{\buyer}. We shall try to be consistent with 
 this convention.
 
 \section{Purpose and scope}
@@ -443,7 +443,7 @@ where satG is ``satisfaction goal'' and infG is ``information goal''.
   \item[qosG2] The system shall keep personal information (like name, address, etc.) secure.
   \item[qosG3] The system shall keep personal information apart from the items. %TODO add explanation
   \item[qosG4] The system shall not handle payment information --  this should be handled by an external party.
-  \item[arcG1] We shall determine the role of the system in relation to the seller and the buyer.
+  \item[arcG1] We shall determine the role of the system in relation to the \seller and the \buyer.
 \end{description}
 where devG is ``development goal'', qosG is ``quality of service goal'' and arcG is ``architectural constraints goal''.
 
@@ -702,8 +702,8 @@ and the database ensures persistence.
     \hline
     Responsibilities &
     \begin{itemize}
-      \item Handles transactions for renting out items; seller to buyer
-      \item Handles transactions for returning items; buyer to seller
+      \item Handles transactions for renting out items; \seller to \buyer
+      \item Handles transactions for returning items; \buyer to \seller
       \item Redirects billing to third party billing service
       \item Asserts items exists
     \end{itemize}\\
