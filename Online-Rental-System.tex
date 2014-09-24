@@ -26,6 +26,7 @@
 \usepackage{lastpage}
 \usepackage{longtable}
 
+
 % Meta-data for report
 \newcommand{\systemname}{Online Rental System}
 \newcommand{\groupname}{Group $\Omega$}
@@ -217,6 +218,14 @@ our intentions and what external/internal components are required.
 \chapter{Glossary}
 \label{cha:glossary}
 \thispagestyle{fancy}
+
+\begin{tabular}[ht]{| l | l |}
+    \hline
+    \textbf{Term} & \textbf{Definition} \\ \hline
+    \Seller & The person who has an item that he/she would like to rent 
+        out. \\ \hline
+    \Buyer & The person wanting to rent an item \\ \hline
+\end{tabular}
 
 \chapter{System stakeholders and requirements}
 \label{cha:syst-stak-requ}
@@ -540,9 +549,6 @@ See figure \ref{fig:context}.
   \caption{The context of the system}
   \label{fig:context}
 \end{figure}
-
-
-
 
 \subsection{Interaction scenarios}
 \label{sec:inter-scen}
