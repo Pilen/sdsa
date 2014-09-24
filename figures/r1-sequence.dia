@@ -1241,7 +1241,7 @@
         <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="text">
-        <dia:string>##</dia:string>
+        <dia:string>#CreateItem#</dia:string>
       </dia:attribute>
       <dia:attribute name="type">
         <dia:enum val="0"/>
@@ -1275,7 +1275,7 @@
         <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="text">
-        <dia:string>##</dia:string>
+        <dia:string>#CreateItem#</dia:string>
       </dia:attribute>
       <dia:attribute name="type">
         <dia:enum val="0"/>
@@ -1309,7 +1309,7 @@
         <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="text">
-        <dia:string>##</dia:string>
+        <dia:string>#CreateItem#</dia:string>
       </dia:attribute>
       <dia:attribute name="type">
         <dia:enum val="0"/>
@@ -1429,7 +1429,7 @@
         <dia:point val="11,8"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="10.938,5.4331;18.6308,8.06196"/>
+        <dia:rectangle val="10.938,5.4;18.6308,8.06196"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -1445,13 +1445,13 @@
         <dia:color val="#000000"/>
       </dia:attribute>
       <dia:attribute name="text">
-        <dia:string>##</dia:string>
+        <dia:string>#CreateItem#</dia:string>
       </dia:attribute>
       <dia:attribute name="type">
         <dia:enum val="0"/>
       </dia:attribute>
       <dia:attribute name="text_pos">
-        <dia:point val="14.7356,7.41559"/>
+        <dia:point val="14,6"/>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="1" to="O0" connection="0"/>
