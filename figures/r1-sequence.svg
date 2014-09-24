@@ -1,95 +1,94 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created by diasvg.py -->
-<svg width="34.256cm" height="27.400cm" viewBox="7.850 3.119 42.106 30.519"
+<svg width="61.625cm" height="21.075cm" viewBox="7.850 2.950 69.475 24.025"
  xmlns="http://www.w3.org/2000/svg"
  xmlns:xlink="http://www.w3.org/1999/xlink">
-<line x1="18.821" y1="4.569" x2="18.821" y2="6.019" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
-<line x1="18.821" y1="20.019" x2="18.821" y2="29.769" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
-<rect x="18.471" y="6.019" width="0.700" height="14.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
-<rect x="18.471" y="6.019" width="0.700" height="14.000" fill="none" stroke="#000000" stroke-width="0.100" />
-<line x1="25.466" y1="4.569" x2="25.466" y2="15.994" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
-<line x1="25.466" y1="21.994" x2="25.466" y2="29.869" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
-<rect x="25.116" y="15.994" width="0.700" height="6.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
-<rect x="25.116" y="15.994" width="0.700" height="6.000" fill="none" stroke="#000000" stroke-width="0.100" />
-<line x1="30.704" y1="7.042" x2="19.171" y2="7.019" stroke="#000000" stroke-width="0.100" />
-<polygon fill="#000000" stroke="none" stroke-width="0.100" points="30.703,7.292 31.504,7.044 30.704,6.792 "/>
-<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="30.703,7.292 31.504,7.044 30.704,6.792 "/>
-<text x="26.619" y="6.828"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
-Authenticate</text>
+<line x1="18.821" y1="4.400" x2="18.821" y2="5.831" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<line x1="18.821" y1="17.831" x2="18.821" y2="23.831" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<rect x="18.471" y="5.831" width="0.700" height="12.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="18.471" y="5.831" width="0.700" height="12.000" fill="none" stroke="#000000" stroke-width="0.100" />
 <ellipse cx="9.150" cy="6.900" rx="0.300" ry="0.300" fill="#FFFFFF" stroke="none"  /><ellipse cx="9.150" cy="6.900" rx="0.300" ry="0.300" fill="none" stroke="#000000"  stroke-width="0.100" /><line x1="7.950" y1="7.500" x2="10.350" y2="7.500" stroke="#000000" stroke-width="0.100" />
 <line x1="9.150" y1="7.200" x2="9.150" y2="8.700" stroke="#000000" stroke-width="0.100" />
 <line x1="9.150" y1="8.700" x2="7.950" y2="10.000" stroke="#000000" stroke-width="0.100" />
 <line x1="9.150" y1="8.700" x2="10.350" y2="10.000" stroke="#000000" stroke-width="0.100" />
 <text x="9.150" y="11.195"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
 User</text>
-<line x1="17.621" y1="6.017" x2="10.400" y2="6.000" stroke="#000000" stroke-width="0.100" />
-<polygon fill="#000000" stroke="none" stroke-width="0.100" points="17.621,6.267 18.421,6.019 17.622,5.767 "/>
-<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="17.621,6.267 18.421,6.019 17.622,5.767 "/>
-<text x="14.498" y="5.766"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
-Authenticate</text>
-<rect x="16.150" y="3.169" width="5.343" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
-<rect x="16.150" y="3.169" width="5.343" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
-<text x="18.821" y="4.119"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+<rect x="16.150" y="3.000" width="5.343" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="16.150" y="3.000" width="5.343" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="18.821" y="3.950"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
 Webserver</text>
-<rect x="23.715" y="3.169" width="3.503" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
-<rect x="23.715" y="3.169" width="3.503" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
-<text x="25.466" y="4.119"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
-Broker</text>
-<line x1="31.904" y1="4.569" x2="31.904" y2="7.044" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
-<line x1="31.904" y1="9.044" x2="31.904" y2="29.869" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
-<rect x="31.554" y="7.044" width="0.700" height="2.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
-<rect x="31.554" y="7.044" width="0.700" height="2.000" fill="none" stroke="#000000" stroke-width="0.100" />
-<rect x="28.959" y="3.169" width="5.890" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
-<rect x="28.959" y="3.169" width="5.890" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
-<text x="31.904" y="4.119"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
-UserService</text>
-<line x1="20.021" y1="9.021" x2="31.554" y2="9.044" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40"/>
-<polygon fill="#000000" stroke="none" stroke-width="0.100" points="20.022,8.771 19.221,9.019 20.021,9.271 "/>
-<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="20.022,8.771 19.221,9.019 20.021,9.271 "/>
-<line x1="17.654" y1="10.784" x2="10.400" y2="8.700" stroke="#000000" stroke-width="0.100" />
-<polygon fill="#000000" stroke="none" stroke-width="0.100" points="17.585,11.024 18.423,11.005 17.723,10.544 "/>
-<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="17.585,11.024 18.423,11.005 17.723,10.544 "/>
-<text x="15.044" y="9.403"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+<rect x="22.000" y="3.000" width="7.765" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="22.000" y="3.000" width="7.765" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="25.883" y="3.950"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+RequestHandler</text>
+<line x1="34.388" y1="4.400" x2="34.388" y2="7.831" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<line x1="34.388" y1="13.831" x2="34.388" y2="24.000" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<rect x="34.038" y="7.831" width="0.700" height="6.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="34.038" y="7.831" width="0.700" height="6.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="31.000" y="3.000" width="6.775" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="31.000" y="3.000" width="6.775" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="34.388" y="3.950"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+QueryHandler</text>
+<line x1="49.648" y1="4.400" x2="49.648" y2="24.000" stroke="#BFBFBF" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<line x1="49.648" y1="24.000" x2="49.648" y2="24.000" stroke="#BFBFBF" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<rect x="45.000" y="3.000" width="9.295" height="1.400" fill="#E5E5E5" stroke="none" stroke-width="0"/>
+<rect x="45.000" y="3.000" width="9.295" height="1.400" fill="none" stroke="#BFBFBF" stroke-width="0.100" />
+<text x="49.648" y="3.950"  fill="#BFBFBF" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+TransactionHandler</text>
+<line x1="41.500" y1="4.400" x2="41.500" y2="8.831" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<line x1="41.500" y1="12.831" x2="41.500" y2="24.000" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<rect x="41.150" y="8.831" width="0.700" height="4.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="41.150" y="8.831" width="0.700" height="4.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="39.000" y="3.000" width="5.000" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="39.000" y="3.000" width="5.000" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="41.500" y="3.950"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+ItemStore</text>
+<line x1="57.794" y1="4.400" x2="57.794" y2="24.000" stroke="#BFBFBF" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<line x1="57.794" y1="24.000" x2="57.794" y2="24.000" stroke="#BFBFBF" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<rect x="55.445" y="3.000" width="4.697" height="1.400" fill="#E5E5E5" stroke="none" stroke-width="0"/>
+<rect x="55.445" y="3.000" width="4.697" height="1.400" fill="none" stroke="#BFBFBF" stroke-width="0.100" />
+<text x="57.794" y="3.950"  fill="#BFBFBF" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+EventLog</text>
+<line x1="65.398" y1="4.400" x2="65.398" y2="24.000" stroke="#BFBFBF" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<line x1="65.398" y1="24.000" x2="65.398" y2="24.000" stroke="#BFBFBF" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<rect x="61.370" y="3.000" width="8.055" height="1.400" fill="#E5E5E5" stroke="none" stroke-width="0"/>
+<rect x="61.370" y="3.000" width="8.055" height="1.400" fill="none" stroke="#BFBFBF" stroke-width="0.100" />
+<text x="65.398" y="3.950"  fill="#BFBFBF" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
+PaymentAdapter</text>
+<line x1="25.883" y1="4.400" x2="25.883" y2="6.831" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<line x1="25.883" y1="18.831" x2="25.883" y2="23.831" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
+<rect x="25.532" y="6.831" width="0.700" height="12.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="25.532" y="6.831" width="0.700" height="12.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<line x1="24.682" y1="6.831" x2="19.171" y2="6.831" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="24.682,7.081 25.482,6.831 24.682,6.581 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="24.682,7.081 25.482,6.831 24.682,6.581 "/>
+<text x="22.352" y="7.331"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
 CreateItem</text>
-<line x1="39.715" y1="4.569" x2="39.715" y2="12.094" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
-<line x1="39.715" y1="14.094" x2="39.715" y2="16.794" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
-<rect x="39.365" y="12.094" width="0.700" height="2.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
-<rect x="39.365" y="12.094" width="0.700" height="2.000" fill="none" stroke="#000000" stroke-width="0.100" />
-<rect x="37.374" y="3.169" width="4.682" height="1.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
-<rect x="37.374" y="3.169" width="4.682" height="1.400" fill="none" stroke="#000000" stroke-width="0.100" />
-<text x="39.715" y="4.119"  fill="#000000" text-anchor="middle" font-size="1.00" font-family="sans" font-style="normal" font-weight="700">
-ItemData</text>
-<line x1="38.515" y1="12.091" x2="19.171" y2="12.019" stroke="#000000" stroke-width="0.100" />
-<polygon fill="#000000" stroke="none" stroke-width="0.100" points="38.514,12.341 39.315,12.094 38.516,11.841 "/>
-<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="38.514,12.341 39.315,12.094 38.516,11.841 "/>
-<text x="28.819" y="11.944"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+<line x1="33.188" y1="7.831" x2="26.233" y2="7.831" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="33.188,8.081 33.988,7.831 33.188,7.581 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="33.188,8.081 33.988,7.831 33.188,7.581 "/>
+<text x="30.135" y="8.331"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
 CreateItem</text>
-<line x1="20.021" y1="14.022" x2="39.365" y2="14.094" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40"/>
-<polygon fill="#000000" stroke="none" stroke-width="0.100" points="20.022,13.772 19.221,14.019 20.020,14.272 "/>
-<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="20.022,13.772 19.221,14.019 20.020,14.272 "/>
-<line x1="24.266" y1="15.997" x2="19.171" y2="16.019" stroke="#000000" stroke-width="0.100" />
-<polygon fill="#000000" stroke="none" stroke-width="0.100" points="24.267,16.247 25.066,15.994 24.265,15.747 "/>
-<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="24.267,16.247 25.066,15.994 24.265,15.747 "/>
-<text x="21.794" y="15.694"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
-NotifyAvailable</text>
-<line x1="20.021" y1="19.015" x2="25.116" y2="18.994" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40"/>
-<polygon fill="#000000" stroke="none" stroke-width="0.100" points="20.020,18.765 19.221,19.019 20.022,19.265 "/>
-<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="20.020,18.765 19.221,19.019 20.022,19.265 "/>
-<line x1="10.981" y1="12.020" x2="18.471" y2="20.019" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40"/>
-<polygon fill="#000000" stroke="none" stroke-width="0.100" points="11.163,11.850 10.434,11.436 10.799,12.191 "/>
-<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="11.163,11.850 10.434,11.436 10.799,12.191 "/>
-<text x="15.794" y="15.544"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
-Created</text>
-<line x1="39.715" y1="14.094" x2="39.715" y2="19.994" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
-<line x1="39.715" y1="21.994" x2="39.715" y2="30.494" stroke="#000000" stroke-width="0.050" stroke-dasharray="0.40,0.40"/>
-<rect x="39.365" y="19.994" width="0.700" height="2.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
-<rect x="39.365" y="19.994" width="0.700" height="2.000" fill="none" stroke="#000000" stroke-width="0.100" />
-<line x1="38.515" y1="19.994" x2="25.816" y2="19.994" stroke="#000000" stroke-width="0.100" />
-<polygon fill="#000000" stroke="none" stroke-width="0.100" points="38.515,20.244 39.315,19.994 38.515,19.744 "/>
-<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="38.515,20.244 39.315,19.994 38.515,19.744 "/>
-<text x="32.306" y="19.494"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
-LookupNewItem</text>
-<line x1="26.666" y1="21.994" x2="39.365" y2="21.994" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40"/>
-<polygon fill="#000000" stroke="none" stroke-width="0.100" points="26.666,21.744 25.866,21.994 26.666,22.244 "/>
-<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="26.666,21.744 25.866,21.994 26.666,22.244 "/>
+<line x1="40.300" y1="8.831" x2="34.738" y2="8.831" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="40.300,9.081 41.100,8.831 40.300,8.581 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="40.300,9.081 41.100,8.831 40.300,8.581 "/>
+<text x="37.944" y="9.331"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+CreateItem</text>
+<line x1="35.588" y1="12.831" x2="41.150" y2="12.831" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40"/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="35.587,12.581 34.788,12.831 35.587,13.081 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="35.587,12.581 34.788,12.831 35.587,13.081 "/>
+<line x1="27.083" y1="13.831" x2="34.038" y2="13.831" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40"/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="27.083,13.581 26.283,13.831 27.083,14.081 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="27.083,13.581 26.283,13.831 27.083,14.081 "/>
+<line x1="20.021" y1="14.831" x2="25.532" y2="14.831" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40"/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="20.021,14.581 19.221,14.831 20.021,15.081 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="20.021,14.581 19.221,14.831 20.021,15.081 "/>
+<line x1="17.655" y1="6.068" x2="11.000" y2="8.000" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="17.725,6.308 18.423,5.845 17.585,5.828 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="17.725,6.308 18.423,5.845 17.585,5.828 "/>
+<text x="14.000" y="6.000"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+CreateItem</text>
+<line x1="11.670" y1="11.523" x2="18.471" y2="16.831" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.40,0.40"/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="11.824,11.326 11.039,11.031 11.516,11.720 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="11.824,11.326 11.039,11.031 11.516,11.720 "/>
 </svg>
