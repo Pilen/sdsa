@@ -1,0 +1,101 @@
+\chapter{Architectural forces}
+\label{cha:architectural-forces}
+\thispagestyle{fancy}
+
+\section{Goals}
+\label{sec:goals}
+We have the following functional and non-functional goals.
+
+\textbf{Functional goals:}
+\begin{description}
+  \item[satG1] A user shall be able to rent an item.
+  \item[satG2] A user shall be able to rent out an item.
+  \item[satG3] The system shall be able to recieve payments and forward payments.
+  \item[infG1] A user shall be informed about the availability of a given item within 24 hours.
+  \item[infG2] A user shall be able to view evaluations of items.
+\end{description}
+where satG is ``satisfaction goal'' and infG is ``information goal''.
+
+\textbf{Non-functional goals:}
+\begin{description}
+  \item[devG1] We shall seek to reuse as many components already available as possible, to limit the development time as much as possible.
+  \item[qosG1] We shall seek to maintain the uptime of the site as high as possible.
+  \item[qosG2] The system shall keep personal information (like name, address, etc.) secure.
+  \item[qosG3] The system shall keep personal information apart from the items. %TODO add explanation
+  \item[qosG4] The system shall not handle payment information --  this should be handled by an external party.
+  \item[arcG1] We shall determine the role of the system in relation to the \seller and the \buyer.
+\end{description}
+where devG is ``development goal'', qosG is ``quality of service goal'' and arcG is ``architectural constraints goal''.
+
+
+\section{Constraints}
+\label{sec:constraints}
+We have the following constraints
+\begin{itemize}
+  \item The system employs client-server model.
+  \item The system employs $n$-layer architecture (e.g. a front-end, an application server, a database server, etc.).
+  \item The front-end GUI of the system is written in HTML and corresponding technologies.
+  \item The system must be independent from hardware specifications, as we do not know what it will run on (only that it will be runned on a cloud solution).
+  \item All technical interactions in the system and user transactions must be logged.
+\end{itemize}
+
+
+\section{Architectural principles}
+\label{sec:arch-princ}
+The system shall seek to follow these principles.
+\begin{center}
+  \begin{tabular}[h!]{| >{\columncolor{gray}}p{0.28\textwidth} | p{0.65\textwidth} |}
+    \hline
+    Principle reference & P1. Use of open source\\
+    \hline
+    Principle statement & ORS uses, where possible, only open source components, both externally and internally. \\
+    \hline
+    Rationale & Open source software is free and thus supports a cheaper solution with no licensing problems. With the limited amount of capital involved in the project, open source adds much functionality for free.\\
+    \hline
+    Implications &
+      \begin{itemize}
+        \item Limited support for the use of open source components -- we do not pay anyone for this support, and are thus dependent on the community of the component.
+        \item Extra care must be taken with respect to open source components licenses, as these may be diverse and imply special use of these components.
+        \item Extension of open source components is possible (with respect to the given license).
+      \end{itemize}\\
+    \hline
+  \end{tabular}
+\end{center}
+
+\begin{center}
+  \begin{tabular}[h!]{| >{\columncolor{gray}}p{0.28\textwidth} | p{0.65\textwidth} |}
+    \hline
+    Principle reference & P2. No payment information storage\\
+    \hline
+    Principle statement & ORS will not, at any point, handle or store payment information provided by the user. This will be handled by an external component.\\
+    \hline
+    Rationale & The law about handling payment information is complex and strict and the liability with handling payment information is too great for ORS.\\
+    \hline
+    Implications &
+      \begin{itemize}
+        \item Data cannot be temporarily stored in the system, but must be send directly to the external billing service.
+        \item We must use an external billing service and thus conform to this API.
+      \end{itemize}\\
+    \hline
+  \end{tabular}
+\end{center}
+
+\begin{center}
+  \begin{tabular}[h!]{| >{\columncolor{gray}}p{0.28\textwidth} | p{0.65\textwidth} |}
+    \hline
+    Principle reference & P3. Usability before functionality\\
+    \hline
+    Principle statement & ORS will prioritize usability over functionality, which can be used in the development of the system.\\
+    \hline
+    Rationale & The business cannot run without users, and users will not use a system with lousy usability. Thus the quality of the system is very depended on usability. This principle follows from many modern companies, like Amazon and Apple, who develops around usability and quality before functionality. \\
+    \hline
+    Implications &
+      \begin{itemize}
+        \item Functionality will be added slower.
+        \item Newly added functionality should be easily used from deployment, creating direct value for the users instead of confusion and/or frustration.
+      \end{itemize}\\
+    \hline
+  \end{tabular}
+\end{center}
+
+

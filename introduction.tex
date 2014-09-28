@@ -1,0 +1,75 @@
+\chapter{Introduction}
+\label{cha:introduction}
+\thispagestyle{fancy}
+
+In this report we define a person who rent out items as a \textit{\seller} and a
+person who rent items as a \textit{\buyer}. We shall try to be consistent with 
+this convention.
+
+\section{Purpose and scope}
+\label{sec:purpose-scope}
+The project is about developing an online renting system (as a website), from
+here on referred to as ORS. In the system it should be possible for users to
+rent out items to other users for a small fee (possibly none) and a safety
+deposit (in case of return of damaged items). When a user wants to rent a
+provided item, the system should provide the contact information to the
+providing user. The business case is to take a small percentage or amount from
+the rental fee when providing the contact information.
+
+Users should be able to search for specific items or item categories,
+geographical locations, price ranges, etc. They should also be able to queue up
+for a specific provided item (by another user) if it is already rented out or
+multiple other people are interested in renting the item.
+
+It should be possible to share what you are renting out on Facebook or Twitter.
+
+A scenario could be a person, owning an electric saw, which he is not using, but
+don't want to sell. He could then be interested in making some money off this
+item, by renting it to people in his area (for example his home city Copenhagen,
+or maybe in all of Sjælland, etc.). Instead of setting up fliers in his local
+area (like in the local grocery store, local sports center, etc.) he puts the
+item up on ORS because it is easy and fast. Now, people in need of such electric
+saw contacts him without him doing anything but making the electric saw
+available for renters.
+
+The system is to be deployed and run on a cloud system like Amazon Cloud. It
+should use an external payment system like PayPal.
+
+\subsection{Scope}
+\paragraph{Included}
+\begin{itemize}
+\item Supply items for rent
+\item Search for items for rent
+\item Requests items for rent
+\item Billing + Deposits when renting
+\item Tracking of items rented out (which user, living where)
+\item Website handling the above
+\end{itemize}
+
+\paragraph{Excluded}
+\begin{itemize}
+\item Sales
+\item Errors + Damage to items -- handling these cases
+\item Hardware for the server -- we shall use a cloud solution.
+\item Verification of transfers (how to verify an item is physically rented/given to a user and returned again).
+\end{itemize}
+
+\section{Audience}
+\label{sec:audience}
+The primary purpose of this document is communication between system architects
+and system developers designing and building the actual system.
+Further it can be used by sponsors and other stakeholders to get an overview of
+the system.
+
+\section{Status}
+\label{sec:status}
+The system is currently undergoing architectual design, as we are developing
+the goals and ideas behind the system.
+
+Our future plans include developing an architectual prototype, that shall show
+our intentions and what external/internal components are required.
+
+\section{Architectural design approach}
+\label{sec:arch-design-appr}
+
+
