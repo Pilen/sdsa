@@ -293,31 +293,59 @@ To enable ACID, we shall also use a log-everything-scheme, meaning that every pr
 
 \section{Information view}
 \label{cha:information-view}
+%TODO?
 
 
 \subsection{Data structure}
 \label{sec:data-structure}
+%TODO
+The static data/information structure of ORS is shown in figure \ref{fig:data_struct}. All data is created and held by ORS itself. The figure shows the class structure (with for example Query and Event), but it also illustrates the attributes and primary keys (underlined attributes) used in the database system holding the data (note that a query is not stored and thus contains no primary key).
+
+\begin{figure}[h!]
+  \centering
+  \caption{The data structure}
+  \includegraphics[width=0.8\textwidth]{figures/data_structure}
+  \label{fig:data_struct}
+\end{figure}
 
 
 \subsection{Data flow}
 \label{sec:data-flow}
+The data flow follows from the functional views, but an elaborated version is found in figure \ref{fig:data_flow}. Note that the static data structures in figure \ref{fig:data_struct} is contained in \texttt{Event} and \texttt{Query}, as described in figure figure \ref{fig:data_struct}.
 
+\begin{figure}[h!]
+  \centering
+  \caption{The data flow}
+  \includegraphics[width=0.8\textwidth]{figures/data_flow}
+  \label{fig:data_flow}
+\end{figure}
 
 \subsection{Data ownership}
 \label{sec:data-ownership}
+All data used is created and owned by ORS. No external persistent data input exists (we have communication with some social medias and a billing system, but data transfered between them and the ORS system is not specifically owned by anyone nor stored in ORS).
 
 
 \subsection{Information lifecycles}
 \label{sec:inform-lifecycl}
+%TODO
+The information lifecycle of the user data is illustrated in figure \ref{fig:info_lifecyc0}. Other data follows the same structure.
+
+\begin{figure}[h!]
+  \centering
+  \caption{Information life cycle of \texttt{User} information}
+  \includegraphics[width=0.8\textwidth]{figures/information_lifecycle0}
+  \label{fig:info_lifecyc0}
+\end{figure}
 
 
 \subsection{Timeliness and latency}
 \label{sec:timeliness-latency}
+See section \ref{sec:syst-wide-proc} for more information on how latency and concurrency will be handled by the system.
 
 
 \subsection{Archive and retention}
 \label{sec:archive-retention}
-
+User data should be hold by ORS as long as a user is active plus a couple of years after a user unsubscribes from the system. Audit of the firm needs information of transactions and user information within a the last couple of years, but after that it should not be needed and user data can then be deleted.
 
 \newpage
 \section{Concurrency view}

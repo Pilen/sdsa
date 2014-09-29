@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+<svg width="14.852cm" height="22.167cm" viewBox="15.598 9.862 30.450 32.029"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="19.305" y="12.358" width="7.137" height="2.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="19.305" y="12.358" width="7.137" height="2.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="22.874" y="13.503"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Request</text>
+<text x="22.874" y="14.303"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Forwarder</text>
+<rect x="24.200" y="29.029" width="6.100" height="2.950" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="24.200" y="29.029" width="6.100" height="2.950" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="27.250" y="30.699"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Event log</text>
+<rect x="15.750" y="29.079" width="5.850" height="2.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="15.750" y="29.079" width="5.850" height="2.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="18.675" y="30.724"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Item Store</text>
+<rect x="23.978" y="20.229" width="6.422" height="2.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="23.978" y="20.229" width="6.422" height="2.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="27.189" y="21.373"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Transaction</text>
+<text x="27.189" y="22.174"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Handler</text>
+<rect x="15.648" y="20.311" width="6.302" height="2.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="15.648" y="20.311" width="6.302" height="2.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="18.799" y="21.456"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Query</text>
+<text x="18.799" y="22.256"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Handler</text>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="23.550,16.913 28.085,16.913 28.685,17.513 28.685,18.613 23.550,18.613 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="23.550,16.913 28.085,16.913 28.685,17.513 28.685,18.613 23.550,18.613 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.050"  points="28.085,16.913 28.085,17.513 28.685,17.513 "/>
+<text x="23.900" y="18.158"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Transaction</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="24.658,15.058 24.658,15.960 26.117,15.960 26.117,16.862 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="26.117,18.613 26.117,19.421 27.189,19.421 27.189,19.678 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="26.939,19.678 27.189,20.178 27.439,19.678 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="26.939,19.678 27.189,20.178 27.439,19.678 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="18.365,16.772 20.590,16.772 21.190,17.372 21.190,18.472 18.365,18.472 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="18.365,16.772 20.590,16.772 21.190,17.372 21.190,18.472 18.365,18.472 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.050"  points="20.590,16.772 20.590,17.372 21.190,17.372 "/>
+<text x="18.715" y="18.017"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Query</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="21.089,15.058 21.089,15.915 19.777,15.915 19.777,16.772 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="19.777,18.472 19.777,19.392 18.799,19.392 18.799,19.761 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="18.549,19.761 18.799,20.261 19.049,19.761 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="18.549,19.761 18.799,20.261 19.049,19.761 "/>
+<line x1="22.850" y1="9.913" x2="22.868" y2="11.808" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="22.618,11.811 22.873,12.308 23.118,11.806 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="22.618,11.811 22.873,12.308 23.118,11.806 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="19.830,25.077 22.055,25.077 22.655,25.677 22.655,26.777 19.830,26.777 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="19.830,25.077 22.055,25.077 22.655,25.677 22.655,26.777 19.830,26.777 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.050"  points="22.055,25.077 22.055,25.677 22.655,25.677 "/>
+<text x="20.180" y="26.322"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Event</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="21.242,26.777 21.242,27.903 25.725,27.903 25.725,28.479 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="25.475,28.479 25.725,28.979 25.975,28.479 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="25.475,28.479 25.725,28.979 25.975,28.479 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="15.795,25.232 18.020,25.232 18.620,25.832 18.620,26.932 15.795,26.932 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="15.795,25.232 18.020,25.232 18.620,25.832 18.620,26.932 15.795,26.932 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.050"  points="18.020,25.232 18.020,25.832 18.620,25.832 "/>
+<text x="16.145" y="26.477"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Query</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="17.207,26.932 17.207,28.005 17.212,28.005 17.212,28.529 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="16.962,28.529 17.212,29.029 17.462,28.529 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="16.962,28.529 17.212,29.029 17.462,28.529 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="17.207,25.232 17.207,24.122 17.223,24.122 17.223,23.561 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="17.473,23.561 17.223,23.061 16.973,23.561 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="17.473,23.561 17.223,23.061 16.973,23.561 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="27.371,24.933 29.596,24.933 30.196,25.533 30.196,26.633 27.371,26.633 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="27.371,24.933 29.596,24.933 30.196,25.533 30.196,26.633 27.371,26.633 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.050"  points="29.596,24.933 29.596,25.533 30.196,25.533 "/>
+<text x="27.721" y="26.178"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Event</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="28.794,22.928 28.794,23.931 28.783,23.931 28.783,24.933 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="28.783,26.633 28.783,27.831 28.775,27.831 28.775,28.479 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="28.525,28.479 28.775,28.979 29.025,28.479 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="28.525,28.479 28.775,28.979 29.025,28.479 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="24.165,24.900 26.390,24.900 26.990,25.500 26.990,26.600 24.165,26.600 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="24.165,24.900 26.390,24.900 26.990,25.500 26.990,26.600 24.165,26.600 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.050"  points="26.390,24.900 26.390,25.500 26.990,25.500 "/>
+<text x="24.515" y="26.145"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Query</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="25.578,26.600 25.578,27.363 20.137,27.363 20.137,28.529 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="19.887,28.529 20.137,29.029 20.387,28.529 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="19.887,28.529 20.137,29.029 20.387,28.529 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="25.578,24.900 25.578,23.962 25.583,23.962 25.583,23.479 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="25.833,23.479 25.583,22.979 25.333,23.479 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="25.833,23.479 25.583,22.979 25.333,23.479 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="21.242,25.077 21.242,24.044 20.374,24.044 20.374,23.561 "/>
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="20.624,23.561 20.374,23.061 20.124,23.561 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="20.624,23.561 20.374,23.061 20.124,23.561 "/>
+</svg>

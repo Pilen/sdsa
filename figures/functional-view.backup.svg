@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+<svg width="39.100cm" height="57.241cm" viewBox="7.714 -11.646 46.814 45.595"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="7.764" y="12.037" width="39.000" height="22.350" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="7.764" y="12.037" width="39.000" height="22.350" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="9.156" y="37.335" width="28.354" height="8.210" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="9.156" y="37.335" width="28.354" height="8.210" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="12.527" y="-0.174" width="19.304" height="8.299" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="12.527" y="-0.174" width="19.304" height="8.299" fill="none" stroke="#000000" stroke-width="0.100" />
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 22.902,-9.673 C 22.252,-9.696 20.990,-9.215 21.168,-8.186 C 21.345,-7.157 22.193,-6.928 22.548,-7.225 C 22.902,-7.522 21.996,-5.784 23.730,-5.327 C 25.465,-4.869 26.352,-5.601 26.096,-6.127 C 25.839,-6.653 27.613,-4.892 28.441,-5.898 C 29.269,-6.905 27.594,-7.866 27.949,-7.728 C 28.303,-7.591 29.387,-7.774 29.033,-9.490 C 28.678,-11.205 25.485,-9.879 25.839,-10.130 C 26.194,-10.382 25.307,-11.640 24.203,-11.388 C 23.100,-11.137 23.021,-10.680 22.903,-9.674 L 22.902,-9.673 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 22.902,-9.673 C 22.252,-9.696 20.990,-9.215 21.168,-8.186 C 21.345,-7.157 22.193,-6.928 22.548,-7.225 C 22.902,-7.522 21.996,-5.784 23.730,-5.327 C 25.465,-4.869 26.352,-5.601 26.096,-6.127 C 25.839,-6.653 27.613,-4.892 28.441,-5.898 C 29.269,-6.905 27.594,-7.866 27.949,-7.728 C 28.303,-7.591 29.387,-7.774 29.033,-9.490 C 28.678,-11.205 25.485,-9.879 25.839,-10.130 C 26.194,-10.382 25.307,-11.640 24.203,-11.388 C 23.100,-11.137 23.021,-10.680 22.903,-9.674 L 22.902,-9.673 "/>
+<text x="25.414" y="-7.935"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Users</text>
+<rect x="20.615" y="0.550" width="3.093" height="1.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="20.615" y="0.550" width="3.093" height="1.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="22.161" y="1.695"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Cache</text>
+<rect x="23.316" y="4.850" width="2.488" height="1.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="23.316" y="4.850" width="2.488" height="1.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="24.560" y="5.995"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Ajax</text>
+<rect x="17.625" y="4.550" width="3.703" height="2.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="17.625" y="4.550" width="3.703" height="2.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="19.476" y="5.695"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Request</text>
+<text x="19.476" y="6.495"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+handler</text>
+<rect x="20.348" y="13.808" width="3.413" height="2.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="20.348" y="13.808" width="3.413" height="2.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="22.054" y="14.953"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Action</text>
+<text x="22.054" y="15.753"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Control</text>
+<rect x="25.720" y="29.694" width="4.115" height="1.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="25.720" y="29.694" width="4.115" height="1.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="27.778" y="30.839"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Event log</text>
+<rect x="17.632" y="29.311" width="2.793" height="2.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="17.632" y="29.311" width="2.793" height="2.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="19.028" y="30.456"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Item</text>
+<text x="19.028" y="31.256"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Store</text>
+<rect x="41.215" y="19.960" width="3.902" height="2.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="41.215" y="19.960" width="3.902" height="2.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="43.166" y="21.105"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Payment</text>
+<text x="43.166" y="21.905"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Proxy</text>
+<rect x="26.781" y="18.618" width="13.294" height="5.233" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="26.781" y="18.618" width="13.294" height="5.233" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="30.328" y="18.829" width="5.090" height="2.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="30.328" y="18.829" width="5.090" height="2.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="32.873" y="19.974"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Transaction</text>
+<text x="32.873" y="20.774"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Handler</text>
+<rect x="33.469" y="21.562" width="6.303" height="1.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="33.469" y="21.562" width="6.303" height="1.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="36.620" y="22.707"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Buyer -&gt; Seller</text>
+<rect x="26.988" y="21.703" width="5.970" height="1.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="26.988" y="21.703" width="5.970" height="1.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="29.973" y="22.848"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Seller -&gt; Buyer</text>
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 37.477,-9.724 C 36.628,-9.746 34.981,-9.277 35.213,-8.271 C 35.445,-7.265 36.551,-7.042 37.014,-7.332 C 37.477,-7.623 36.294,-5.924 38.558,-5.477 C 40.822,-5.030 41.979,-5.745 41.645,-6.259 C 41.311,-6.774 43.626,-5.053 44.707,-6.036 C 45.787,-7.019 43.600,-7.958 44.063,-7.824 C 44.527,-7.690 45.942,-7.869 45.478,-9.545 C 45.015,-11.221 40.847,-9.925 41.311,-10.171 C 41.774,-10.417 40.616,-11.646 39.175,-11.400 C 37.734,-11.154 37.632,-10.708 37.478,-9.725 L 37.477,-9.724 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 37.477,-9.724 C 36.628,-9.746 34.981,-9.277 35.213,-8.271 C 35.445,-7.265 36.551,-7.042 37.014,-7.332 C 37.477,-7.623 36.294,-5.924 38.558,-5.477 C 40.822,-5.030 41.979,-5.745 41.645,-6.259 C 41.311,-6.774 43.626,-5.053 44.707,-6.036 C 45.787,-7.019 43.600,-7.958 44.063,-7.824 C 44.527,-7.690 45.942,-7.869 45.478,-9.545 C 45.015,-11.221 40.847,-9.925 41.311,-10.171 C 41.774,-10.417 40.616,-11.646 39.175,-11.400 C 37.734,-11.154 37.632,-10.708 37.478,-9.725 L 37.477,-9.724 "/>
+<text x="40.755" y="-8.421"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Payment</text>
+<text x="40.755" y="-7.621"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+service</text>
+<rect x="20.555" y="19.511" width="3.140" height="1.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="20.555" y="19.511" width="3.140" height="1.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="22.125" y="20.656"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Admin</text>
+<rect x="8.680" y="18.759" width="7.354" height="6.364" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="8.680" y="18.759" width="7.354" height="6.364" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="10.248" y="19.111" width="3.955" height="2.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="10.248" y="19.111" width="3.955" height="2.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="12.225" y="20.256"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Query</text>
+<text x="12.225" y="21.056"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Handler</text>
+<rect x="9.114" y="22.081" width="2.545" height="2.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="9.114" y="22.081" width="2.545" height="2.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="10.387" y="23.226"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Add</text>
+<text x="10.387" y="24.026"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+item</text>
+<rect x="12.071" y="22.152" width="3.703" height="2.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="12.071" y="22.152" width="3.703" height="2.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="13.922" y="23.297"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Request</text>
+<text x="13.922" y="24.097"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+item</text>
+<text x="13.305" y="0.912"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+WEBSERVER</text>
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 26.220,40.199 C 26.880,39.724 27.210,39.566 27.870,39.566 C 28.530,39.566 28.860,39.724 29.520,40.199 L 29.520,42.733 C 28.860,43.208 28.530,43.366 27.870,43.366 C 27.210,43.366 26.880,43.208 26.220,42.733 L 26.220,40.199 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 26.220,40.199 C 26.880,39.724 27.210,39.566 27.870,39.566 C 28.530,39.566 28.860,39.724 29.520,40.199 L 29.520,42.733 C 28.860,43.208 28.530,43.366 27.870,43.366 C 27.210,43.366 26.880,43.208 26.220,42.733 L 26.220,40.199 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 26.220,40.199 C 26.880,40.674 27.210,40.833 27.870,40.833 C 28.530,40.833 28.860,40.674 29.520,40.199 "/>
+<text x="27.870" y="41.583"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Cloud</text>
+<text x="27.870" y="42.383"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Storage</text>
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 17.014,40.126 C 17.674,39.651 18.004,39.492 18.664,39.492 C 19.324,39.492 19.654,39.651 20.314,40.126 L 20.314,42.659 C 19.654,43.134 19.324,43.292 18.664,43.292 C 18.004,43.292 17.674,43.134 17.014,42.659 L 17.014,40.126 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 17.014,40.126 C 17.674,39.651 18.004,39.492 18.664,39.492 C 19.324,39.492 19.654,39.651 20.314,40.126 L 20.314,42.659 C 19.654,43.134 19.324,43.292 18.664,43.292 C 18.004,43.292 17.674,43.134 17.014,42.659 L 17.014,40.126 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 17.014,40.126 C 17.674,40.601 18.004,40.759 18.664,40.759 C 19.324,40.759 19.654,40.601 20.314,40.126 "/>
+<text x="18.664" y="41.509"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Cloud</text>
+<text x="18.664" y="42.309"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Storage</text>
+<text x="8.581" y="13.708"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+APPLICATION</text>
+<text x="9.995" y="38.492"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+DATABASE</text>
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 11.575,-9.165 C 11.057,-9.178 10.052,-8.913 10.194,-8.346 C 10.335,-7.779 11.010,-7.653 11.292,-7.817 C 11.575,-7.981 10.853,-7.023 12.234,-6.771 C 13.615,-6.519 14.321,-6.922 14.117,-7.212 C 13.913,-7.502 15.325,-6.532 15.984,-7.086 C 16.643,-7.641 15.309,-8.170 15.592,-8.094 C 15.874,-8.019 16.737,-8.120 16.455,-9.065 C 16.173,-10.010 13.630,-9.279 13.913,-9.417 C 14.195,-9.556 13.489,-10.249 12.610,-10.111 C 11.732,-9.972 11.669,-9.720 11.575,-9.166 L 11.575,-9.165 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 11.575,-9.165 C 11.057,-9.178 10.052,-8.913 10.194,-8.346 C 10.335,-7.779 11.010,-7.653 11.292,-7.817 C 11.575,-7.981 10.853,-7.023 12.234,-6.771 C 13.615,-6.519 14.321,-6.922 14.117,-7.212 C 13.913,-7.502 15.325,-6.532 15.984,-7.086 C 16.643,-7.641 15.309,-8.170 15.592,-8.094 C 15.874,-8.019 16.737,-8.120 16.455,-9.065 C 16.173,-10.010 13.630,-9.279 13.913,-9.417 C 14.195,-9.556 13.489,-10.249 12.610,-10.111 C 11.732,-9.972 11.669,-9.720 11.575,-9.166 L 11.575,-9.165 "/>
+<text x="13.574" y="-8.118"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Admins</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="21.388,2.450 21.388,3.475 19.476,3.475 19.476,3.888 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="19.226,3.888 19.476,4.388 19.726,3.888 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="22.934,2.450 22.934,3.625 24.560,3.625 24.560,4.189 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="24.310,4.189 24.560,4.689 24.810,4.189 "/>
+<line x1="20.297" y1="15.129" x2="19.468" y2="15.115" stroke="#000000" stroke-width="0.100" />
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 18.968,15.106 C 18.970,14.981 19.097,14.858 19.222,14.860 C 19.347,14.863 19.470,14.990 19.468,15.115 C 19.466,15.240 19.339,15.363 19.214,15.360 C 19.089,15.358 18.966,15.231 18.968,15.106 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 18.968,15.106 C 18.970,14.981 19.097,14.858 19.222,14.860 C 19.347,14.863 19.470,14.990 19.468,15.115 C 19.466,15.240 19.339,15.363 19.214,15.360 C 19.089,15.358 18.966,15.231 18.968,15.106 "/>
+<line x1="22.060" y1="16.558" x2="22.063" y2="17.172" stroke="#000000" stroke-width="0.100" />
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 22.065,17.672 C 21.940,17.672 21.814,17.548 21.814,17.423 C 21.813,17.298 21.938,17.172 22.063,17.172 C 22.188,17.171 22.313,17.296 22.314,17.421 C 22.314,17.546 22.190,17.671 22.065,17.672 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 22.065,17.672 C 21.940,17.672 21.814,17.548 21.814,17.423 C 21.813,17.298 21.938,17.172 22.063,17.172 C 22.188,17.171 22.313,17.296 22.314,17.421 C 22.314,17.546 22.190,17.671 22.065,17.672 "/>
+<line x1="23.810" y1="15.109" x2="24.662" y2="15.085" stroke="#000000" stroke-width="0.100" />
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 25.162,15.071 C 25.165,15.196 25.044,15.325 24.919,15.328 C 24.794,15.332 24.665,15.210 24.662,15.085 C 24.658,14.960 24.780,14.832 24.905,14.829 C 25.030,14.825 25.158,14.946 25.162,15.071 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 25.162,15.071 C 25.165,15.196 25.044,15.325 24.919,15.328 C 24.794,15.332 24.665,15.210 24.662,15.085 C 24.658,14.960 24.780,14.832 24.905,14.829 C 25.030,14.825 25.158,14.946 25.162,15.071 "/>
+<line x1="12.223" y1="25.172" x2="12.188" y2="26.011" stroke="#000000" stroke-width="0.100" />
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 12.167,26.511 C 12.043,26.505 11.923,26.375 11.928,26.250 C 11.933,26.126 12.063,26.006 12.188,26.011 C 12.313,26.016 12.433,26.146 12.428,26.271 C 12.422,26.396 12.292,26.516 12.167,26.511 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 12.167,26.511 C 12.043,26.505 11.923,26.375 11.928,26.250 C 11.933,26.126 12.063,26.006 12.188,26.011 C 12.313,26.016 12.433,26.146 12.428,26.271 C 12.422,26.396 12.292,26.516 12.167,26.511 "/>
+<line x1="22.130" y1="21.462" x2="22.133" y2="22.157" stroke="#000000" stroke-width="0.100" />
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 22.135,22.657 C 22.010,22.657 21.885,22.533 21.884,22.408 C 21.884,22.283 22.008,22.157 22.133,22.157 C 22.258,22.156 22.384,22.281 22.384,22.406 C 22.385,22.531 22.260,22.656 22.135,22.657 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 22.135,22.657 C 22.010,22.657 21.885,22.533 21.884,22.408 C 21.884,22.283 22.008,22.157 22.133,22.157 C 22.258,22.156 22.384,22.281 22.384,22.406 C 22.385,22.531 22.260,22.656 22.135,22.657 "/>
+<line x1="33.396" y1="23.900" x2="33.385" y2="24.773" stroke="#000000" stroke-width="0.100" />
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 33.379,25.273 C 33.254,25.272 33.131,25.145 33.132,25.020 C 33.134,24.895 33.260,24.772 33.385,24.773 C 33.510,24.775 33.634,24.901 33.632,25.026 C 33.631,25.151 33.504,25.275 33.379,25.273 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 33.379,25.273 C 33.254,25.272 33.131,25.145 33.132,25.020 C 33.134,24.895 33.260,24.772 33.385,24.773 C 33.510,24.775 33.634,24.901 33.632,25.026 C 33.631,25.151 33.504,25.275 33.379,25.273 "/>
+<line x1="18.973" y1="32.051" x2="18.940" y2="32.870" stroke="#000000" stroke-width="0.100" />
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 18.920,33.370 C 18.795,33.365 18.675,33.235 18.680,33.110 C 18.685,32.985 18.815,32.865 18.940,32.870 C 19.065,32.875 19.185,33.005 19.180,33.130 C 19.175,33.255 19.045,33.374 18.920,33.370 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 18.920,33.370 C 18.795,33.365 18.675,33.235 18.680,33.110 C 18.685,32.985 18.815,32.865 18.940,32.870 C 19.065,32.875 19.185,33.005 19.180,33.130 C 19.175,33.255 19.045,33.374 18.920,33.370 "/>
+<line x1="27.770" y1="31.643" x2="27.761" y2="32.869" stroke="#000000" stroke-width="0.100" />
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 27.758,33.369 C 27.633,33.369 27.508,33.243 27.509,33.118 C 27.510,32.993 27.636,32.869 27.761,32.869 C 27.886,32.870 28.010,32.996 28.009,33.121 C 28.008,33.246 27.882,33.370 27.758,33.369 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 27.758,33.369 C 27.633,33.369 27.508,33.243 27.509,33.118 C 27.510,32.993 27.636,32.869 27.761,32.869 C 27.886,32.870 28.010,32.996 28.009,33.121 C 28.008,33.246 27.882,33.370 27.758,33.369 "/>
+<line x1="15.592" y1="18.710" x2="18.812" y2="15.494" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 18.812,15.141 A 0.250,0.250 0 1,0 19.166,15.494 "/>
+<line x1="22.104" y1="19.463" x2="22.075" y2="18.009" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 21.820,17.764 A 0.250,0.250 0 1,0 22.320,17.755 "/>
+<line x1="29.709" y1="18.568" x2="25.335" y2="15.432" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 24.986,15.490 A 0.250,0.250 0 1,0 25.278,15.083 "/>
+<line x1="17.582" y1="29.757" x2="12.554" y2="26.613" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 12.209,26.693 A 0.250,0.250 0 1,0 12.475,26.269 "/>
+<line x1="19.558" y1="29.261" x2="21.958" y2="22.927" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 21.813,22.605 A 0.250,0.250 0 1,0 22.281,22.782 "/>
+<line x1="28.764" y1="29.645" x2="32.957" y2="25.396" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 32.954,25.043 A 0.250,0.250 0 1,0 33.310,25.394 "/>
+<line x1="20.419" y1="30.116" x2="32.807" y2="25.258" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 32.949,24.934 A 0.250,0.250 0 1,0 33.131,25.400 "/>
+<line x1="25.671" y1="30.066" x2="12.612" y2="26.481" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 12.305,26.656 A 0.250,0.250 0 1,0 12.437,26.174 "/>
+<line x1="19.866" y1="7.300" x2="21.500" y2="13.169" stroke="#000000" stroke-width="0.100" />
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="21.259,13.236 21.634,13.651 21.741,13.102 "/>
+<line x1="24.293" y1="6.798" x2="22.587" y2="13.168" stroke="#000000" stroke-width="0.100" />
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="22.345,13.103 22.458,13.651 22.828,13.232 "/>
+<line x1="40.124" y1="21.286" x2="40.555" y2="21.290" stroke="#000000" stroke-width="0.100" />
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="40.553,21.540 41.055,21.293 40.557,21.040 "/>
+<line x1="27.084" y1="29.645" x2="22.408" y2="22.908" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 22.060,22.845 A 0.250,0.250 0 1,0 22.471,22.560 "/>
+<line x1="43.179" y1="19.910" x2="43.184" y2="19.337" stroke="#000000" stroke-width="0.100" />
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 43.188,18.837 C 43.313,18.838 43.437,18.964 43.436,19.089 C 43.435,19.214 43.309,19.338 43.184,19.337 C 43.059,19.335 42.935,19.209 42.936,19.084 C 42.937,18.959 43.063,18.835 43.188,18.837 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 43.188,18.837 C 43.313,18.838 43.437,18.964 43.436,19.089 C 43.435,19.214 43.309,19.338 43.184,19.337 C 43.059,19.335 42.935,19.209 42.936,19.084 C 42.937,18.959 43.063,18.835 43.188,18.837 "/>
+<line x1="27.828" y1="39.517" x2="27.702" y2="33.656" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 27.447,33.411 A 0.250,0.250 0 1,0 27.947,33.401 "/>
+<line x1="18.676" y1="40.050" x2="18.905" y2="33.656" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 18.665,33.397 A 0.250,0.250 0 1,0 19.164,33.415 "/>
+<line x1="41.585" y1="-5.805" x2="43.153" y2="18.546" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 43.419,18.780 A 0.250,0.250 0 1,0 42.920,18.811 "/>
+<line x1="24.085" y1="-5.305" x2="22.934" y2="0.550" stroke="#000000" stroke-width="0.100" />
+<line x1="13.935" y1="-7.305" x2="21.388" y2="0.550" stroke="#000000" stroke-width="0.100" />
+</svg>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+<svg width="30.485cm" height="20.750cm" viewBox="12.450 6.955 42.935 27.705"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="22.300" y="16.250" width="8.615" height="0.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="22.300" y="16.250" width="8.615" height="0.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="26.608" y="16.950"  fill="#000000" text-anchor="middle" font-size="0.70" font-family="sans" font-style="normal" font-weight="700">
+Item</text>
+<rect x="22.300" y="17.150" width="8.615" height="5.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="22.300" y="17.150" width="8.615" height="5.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.010" points="22.450,17.650 22.550,17.800 22.650,17.650 22.550,17.500 "/>
+<text x="22.750" y="17.950"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+ItemId</text>
+<text x="28.255" y="17.950"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Int</text>
+<line x1="22.750" y1="18.030" x2="29.410" y2="18.030" stroke="#000000" stroke-width="0.050" />
+<ellipse cx="22.550" cy="18.450" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="22.750" y="18.750"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Name</text>
+<text x="28.255" y="18.750"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+String</text>
+<ellipse cx="22.550" cy="19.250" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="22.750" y="19.550"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+OwnerId</text>
+<text x="28.255" y="19.550"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Int</text>
+<ellipse cx="22.550" cy="20.050" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="22.750" y="20.350"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+ItemType</text>
+<text x="28.255" y="20.350"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Int</text>
+<ellipse cx="22.550" cy="20.850" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="22.750" y="21.150"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+RentAmount</text>
+<text x="28.255" y="21.150"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Double</text>
+<ellipse cx="22.550" cy="21.650" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="22.750" y="21.950"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+DepositAmount</text>
+<text x="28.255" y="21.950"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Double</text>
+<rect x="12.450" y="14.850" width="6.305" height="0.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="12.450" y="14.850" width="6.305" height="0.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="15.602" y="15.550"  fill="#000000" text-anchor="middle" font-size="0.70" font-family="sans" font-style="normal" font-weight="700">
+User</text>
+<rect x="12.450" y="15.750" width="6.305" height="3.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="12.450" y="15.750" width="6.305" height="3.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.010" points="12.600,16.250 12.700,16.400 12.800,16.250 12.700,16.100 "/>
+<text x="12.900" y="16.550"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+UserId</text>
+<text x="16.095" y="16.550"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Int</text>
+<line x1="12.900" y1="16.630" x2="17.250" y2="16.630" stroke="#000000" stroke-width="0.050" />
+<ellipse cx="12.700" cy="17.050" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="12.900" y="17.350"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Name</text>
+<text x="16.095" y="17.350"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+String</text>
+<ellipse cx="12.700" cy="17.850" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="12.900" y="18.150"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Type</text>
+<text x="16.095" y="18.150"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Int</text>
+<ellipse cx="12.700" cy="18.650" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="12.900" y="18.950"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Address</text>
+<text x="16.095" y="18.950"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+String</text>
+<rect x="33.550" y="11.300" width="9.385" height="0.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="33.550" y="11.300" width="9.385" height="0.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="38.242" y="12.000"  fill="#000000" text-anchor="middle" font-size="0.70" font-family="sans" font-style="normal" font-weight="700">
+Transaction</text>
+<rect x="33.550" y="12.200" width="9.385" height="5.000" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="33.550" y="12.200" width="9.385" height="5.000" fill="none" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.010" points="33.700,12.700 33.800,12.850 33.900,12.700 33.800,12.550 "/>
+<text x="34.000" y="13.000"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+TransactionId</text>
+<text x="40.275" y="13.000"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Int</text>
+<line x1="34.000" y1="13.080" x2="41.430" y2="13.080" stroke="#000000" stroke-width="0.050" />
+<ellipse cx="33.800" cy="13.500" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="34.000" y="13.800"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+User1</text>
+<text x="40.275" y="13.800"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+User</text>
+<ellipse cx="33.800" cy="14.300" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="34.000" y="14.600"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+User2</text>
+<text x="40.275" y="14.600"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+User</text>
+<ellipse cx="33.800" cy="15.100" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="34.000" y="15.400"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+TransactionType</text>
+<text x="40.275" y="15.400"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+String</text>
+<ellipse cx="33.800" cy="15.900" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="34.000" y="16.200"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+AmountMoney</text>
+<text x="40.275" y="16.200"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Int</text>
+<ellipse cx="33.800" cy="16.700" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="34.000" y="17.000"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Item</text>
+<text x="40.275" y="17.000"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Item</text>
+<rect x="22.410" y="24.205" width="8.615" height="0.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="22.410" y="24.205" width="8.615" height="0.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="26.718" y="24.905"  fill="#000000" text-anchor="middle" font-size="0.70" font-family="sans" font-style="normal" font-weight="700">
+Query</text>
+<rect x="22.410" y="25.105" width="8.615" height="2.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="22.410" y="25.105" width="8.615" height="2.600" fill="none" stroke="#000000" stroke-width="0.100" />
+<ellipse cx="22.660" cy="25.605" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="22.860" y="25.905"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+QueryType</text>
+<text x="26.825" y="25.905"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+String</text>
+<ellipse cx="22.660" cy="26.405" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="22.860" y="26.705"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Items</text>
+<text x="26.825" y="26.705"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+List&lt;Item&gt;</text>
+<ellipse cx="22.660" cy="27.205" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="22.860" y="27.505"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Users</text>
+<text x="26.825" y="27.505"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+List&lt;User&gt;</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="18.755,16.250 20.527,16.250 20.527,19.250 22.300,19.250 "/>
+<line x1="21.800" y1="19.250" x2="22.300" y2="19.500" stroke="#000000" stroke-width="0.100" />
+<line x1="21.800" y1="19.250" x2="22.300" y2="19.000" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="18.755,15.300 26.152,15.300 26.152,13.500 33.550,13.500 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="18.755,15.300 26.152,15.300 26.152,14.300 33.550,14.300 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="30.915,16.700 30.965,16.700 33.500,16.700 33.550,16.700 "/>
+<line x1="33.050" y1="16.700" x2="33.550" y2="16.950" stroke="#000000" stroke-width="0.100" />
+<line x1="33.050" y1="16.700" x2="33.550" y2="16.450" stroke="#000000" stroke-width="0.100" />
+<rect x="22.965" y="6.955" width="9.770" height="0.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="22.965" y="6.955" width="9.770" height="0.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="27.850" y="7.655"  fill="#000000" text-anchor="middle" font-size="0.70" font-family="sans" font-style="normal" font-weight="700">
+Event</text>
+<rect x="22.965" y="7.855" width="9.770" height="3.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="22.965" y="7.855" width="9.770" height="3.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.010" points="23.115,8.355 23.215,8.505 23.315,8.355 23.215,8.205 "/>
+<text x="23.415" y="8.655"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+EventId</text>
+<text x="28.150" y="8.655"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Int</text>
+<line x1="23.415" y1="8.735" x2="29.305" y2="8.735" stroke="#000000" stroke-width="0.050" />
+<ellipse cx="23.215" cy="9.155" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="23.415" y="9.455"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Transaction</text>
+<text x="28.150" y="9.455"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Transaction</text>
+<ellipse cx="23.215" cy="9.955" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="23.415" y="10.255"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+User</text>
+<text x="28.150" y="10.255"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+User</text>
+<ellipse cx="23.215" cy="10.755" rx="0.100" ry="0.100" fill="none" stroke="#000000"  stroke-width="0.010" /><text x="23.415" y="11.055"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Item</text>
+<text x="28.150" y="11.055"  fill="#000000" text-anchor="start" font-size="0.80" font-family="monospace" font-style="normal" font-weight="400">
+Item</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="38.242,11.300 38.242,9.155 32.735,9.155 "/>
+<line x1="33.235" y1="9.155" x2="32.735" y2="8.905" stroke="#000000" stroke-width="0.100" />
+<line x1="33.235" y1="9.155" x2="32.735" y2="9.405" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="15.602,14.850 15.602,9.955 22.965,9.955 "/>
+<line x1="22.465" y1="9.955" x2="22.965" y2="10.205" stroke="#000000" stroke-width="0.100" />
+<line x1="22.465" y1="9.955" x2="22.965" y2="9.705" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="24.454,16.250 24.454,13.600 21.915,13.600 21.915,10.755 22.965,10.755 "/>
+<line x1="22.465" y1="10.755" x2="22.965" y2="11.005" stroke="#000000" stroke-width="0.100" />
+<line x1="22.465" y1="10.755" x2="22.965" y2="10.505" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="22.410,27.205 17.179,27.205 17.179,19.150 "/>
+<line x1="21.910" y1="27.205" x2="22.410" y2="27.455" stroke="#000000" stroke-width="0.100" />
+<line x1="21.910" y1="27.205" x2="22.410" y2="26.955" stroke="#000000" stroke-width="0.100" />
+<line x1="17.179" y1="19.650" x2="17.429" y2="19.150" stroke="#000000" stroke-width="0.100" />
+<line x1="17.179" y1="19.650" x2="16.929" y2="19.150" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="22.410,26.405 21.250,26.405 21.250,16.700 22.300,16.700 "/>
+<line x1="21.910" y1="26.405" x2="22.410" y2="26.655" stroke="#000000" stroke-width="0.100" />
+<line x1="21.910" y1="26.405" x2="22.410" y2="26.155" stroke="#000000" stroke-width="0.100" />
+<line x1="21.800" y1="16.700" x2="22.300" y2="16.950" stroke="#000000" stroke-width="0.100" />
+<line x1="21.800" y1="16.700" x2="22.300" y2="16.450" stroke="#000000" stroke-width="0.100" />
+</svg>

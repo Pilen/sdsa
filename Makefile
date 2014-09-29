@@ -25,6 +25,10 @@ figures:
 	inkscape -z -D --file=figures/concurrency-model.svg --export-pdf=figures/concurrency-model.pdf
 	inkscape -z -D --file=figures/state-model.svg --export-pdf=figures/state-model.pdf
 	inkscape -z -D --file=figures/dev_module_structure.svg --export-pdf=figures/dev_module_structure.pdf
+	inkscape -z -D --file=figures/data_structure.svg --export-pdf=figures/data_structure.pdf
+	inkscape -z -D --file=figures/data_flow.svg --export-pdf=figures/data_flow.pdf
+	inkscape -z -D --file=figures/information_lifecycle0.svg --export-pdf=figures/information_lifecycle0.pdf
+
 
 spell:
 	for file in $(TEX_FILES); do aspell --lang en_GB -t -c $$file; done
