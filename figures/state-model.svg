@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+<svg width="25.200cm" height="32.050cm" viewBox="14.300 7.400 39.500 39.450"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="14.350" y="14.800" width="25.100" height="19.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="14.350" y="14.800" width="25.100" height="19.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<ellipse cx="18.250" cy="7.950" rx="0.500" ry="0.500" fill="#000000" stroke="none"  /><ellipse cx="19.150" cy="37.800" rx="0.500" ry="0.500" fill="#000000" stroke="none"  /><rect x="16.700" y="10.250" width="3.000" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#FFFFFF" d ="M 16.700,10.250 A 0.500,0.500 0 0,0 16.200,10.750 "/>
+<path stroke="none" fill="#FFFFFF" d ="M 20.200,10.750 A 0.500,0.500 0 0,0 19.700,10.250 "/>
+<rect x="16.200" y="10.750" width="4.000" height="0.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#FFFFFF" d ="M 16.200,11.550 A 0.500,0.500 0 0,0 16.700,12.050 "/>
+<path stroke="none" fill="#FFFFFF" d ="M 19.700,12.050 A 0.500,0.500 0 0,0 20.200,11.550 "/>
+<line x1="16.700" y1="10.250" x2="19.700" y2="10.250" stroke="#000000" stroke-width="0.100" />
+<line x1="16.700" y1="12.050" x2="19.700" y2="12.050" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 16.700,10.250 A 0.500,0.500 0 0,0 16.200,10.750 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 20.200,10.750 A 0.500,0.500 0 0,0 19.700,10.250 "/>
+<line x1="16.200" y1="10.750" x2="16.200" y2="11.550" stroke="#000000" stroke-width="0.100" />
+<line x1="20.200" y1="10.750" x2="20.200" y2="11.550" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 16.200,11.550 A 0.500,0.500 0 0,0 16.700,12.050 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 19.700,12.050 A 0.500,0.500 0 0,0 20.200,11.550 "/>
+<text x="18.200" y="11.345"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Installed</text>
+<rect x="22.350" y="16.800" width="5.565" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#FFFFFF" d ="M 22.350,16.800 A 0.500,0.500 0 0,0 21.850,17.300 "/>
+<path stroke="none" fill="#FFFFFF" d ="M 28.415,17.300 A 0.500,0.500 0 0,0 27.915,16.800 "/>
+<rect x="21.850" y="17.300" width="6.565" height="0.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#FFFFFF" d ="M 21.850,18.100 A 0.500,0.500 0 0,0 22.350,18.600 "/>
+<path stroke="none" fill="#FFFFFF" d ="M 27.915,18.600 A 0.500,0.500 0 0,0 28.415,18.100 "/>
+<line x1="22.350" y1="16.800" x2="27.915" y2="16.800" stroke="#000000" stroke-width="0.100" />
+<line x1="22.350" y1="18.600" x2="27.915" y2="18.600" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 22.350,16.800 A 0.500,0.500 0 0,0 21.850,17.300 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 28.415,17.300 A 0.500,0.500 0 0,0 27.915,16.800 "/>
+<line x1="21.850" y1="17.300" x2="21.850" y2="18.100" stroke="#000000" stroke-width="0.100" />
+<line x1="28.415" y1="17.300" x2="28.415" y2="18.100" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 21.850,18.100 A 0.500,0.500 0 0,0 22.350,18.600 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 27.915,18.600 A 0.500,0.500 0 0,0 28.415,18.100 "/>
+<text x="25.133" y="17.895"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Receving request</text>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="24.100,20.250 25.100,19.250 26.100,20.250 25.100,21.250 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="24.100,20.250 25.100,19.250 26.100,20.250 25.100,21.250 "/>
+<rect x="16.050" y="23.300" width="3.418" height="2.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#FFFFFF" d ="M 16.050,23.300 A 0.500,0.500 0 0,0 15.550,23.800 "/>
+<path stroke="none" fill="#FFFFFF" d ="M 19.968,23.800 A 0.500,0.500 0 0,0 19.468,23.300 "/>
+<rect x="15.550" y="23.800" width="4.418" height="1.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#FFFFFF" d ="M 15.550,25.400 A 0.500,0.500 0 0,0 16.050,25.900 "/>
+<path stroke="none" fill="#FFFFFF" d ="M 19.468,25.900 A 0.500,0.500 0 0,0 19.968,25.400 "/>
+<line x1="16.050" y1="23.300" x2="19.468" y2="23.300" stroke="#000000" stroke-width="0.100" />
+<line x1="16.050" y1="25.900" x2="19.468" y2="25.900" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 16.050,23.300 A 0.500,0.500 0 0,0 15.550,23.800 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 19.968,23.800 A 0.500,0.500 0 0,0 19.468,23.300 "/>
+<line x1="15.550" y1="23.800" x2="15.550" y2="25.400" stroke="#000000" stroke-width="0.100" />
+<line x1="19.968" y1="23.800" x2="19.968" y2="25.400" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 15.550,25.400 A 0.500,0.500 0 0,0 16.050,25.900 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 19.468,25.900 A 0.500,0.500 0 0,0 19.968,25.400 "/>
+<text x="17.759" y="24.395"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Processing</text>
+<text x="17.759" y="25.195"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Query</text>
+<rect x="29.550" y="23.650" width="3.658" height="2.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#FFFFFF" d ="M 29.550,23.650 A 0.500,0.500 0 0,0 29.050,24.150 "/>
+<path stroke="none" fill="#FFFFFF" d ="M 33.708,24.150 A 0.500,0.500 0 0,0 33.208,23.650 "/>
+<rect x="29.050" y="24.150" width="4.658" height="1.600" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#FFFFFF" d ="M 29.050,25.750 A 0.500,0.500 0 0,0 29.550,26.250 "/>
+<path stroke="none" fill="#FFFFFF" d ="M 33.208,26.250 A 0.500,0.500 0 0,0 33.708,25.750 "/>
+<line x1="29.550" y1="23.650" x2="33.208" y2="23.650" stroke="#000000" stroke-width="0.100" />
+<line x1="29.550" y1="26.250" x2="33.208" y2="26.250" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 29.550,23.650 A 0.500,0.500 0 0,0 29.050,24.150 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 33.708,24.150 A 0.500,0.500 0 0,0 33.208,23.650 "/>
+<line x1="29.050" y1="24.150" x2="29.050" y2="25.750" stroke="#000000" stroke-width="0.100" />
+<line x1="33.708" y1="24.150" x2="33.708" y2="25.750" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 29.050,25.750 A 0.500,0.500 0 0,0 29.550,26.250 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 33.208,26.250 A 0.500,0.500 0 0,0 33.708,25.750 "/>
+<text x="31.379" y="24.745"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Processing</text>
+<text x="31.379" y="25.545"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Transaction</text>
+<rect x="23.250" y="32.150" width="3.000" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#FFFFFF" d ="M 23.250,32.150 A 0.500,0.500 0 0,0 22.750,32.650 "/>
+<path stroke="none" fill="#FFFFFF" d ="M 26.750,32.650 A 0.500,0.500 0 0,0 26.250,32.150 "/>
+<rect x="22.750" y="32.650" width="4.000" height="0.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#FFFFFF" d ="M 22.750,33.450 A 0.500,0.500 0 0,0 23.250,33.950 "/>
+<path stroke="none" fill="#FFFFFF" d ="M 26.250,33.950 A 0.500,0.500 0 0,0 26.750,33.450 "/>
+<line x1="23.250" y1="32.150" x2="26.250" y2="32.150" stroke="#000000" stroke-width="0.100" />
+<line x1="23.250" y1="33.950" x2="26.250" y2="33.950" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 23.250,32.150 A 0.500,0.500 0 0,0 22.750,32.650 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 26.750,32.650 A 0.500,0.500 0 0,0 26.250,32.150 "/>
+<line x1="22.750" y1="32.650" x2="22.750" y2="33.450" stroke="#000000" stroke-width="0.100" />
+<line x1="26.750" y1="32.650" x2="26.750" y2="33.450" stroke="#000000" stroke-width="0.100" />
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 22.750,33.450 A 0.500,0.500 0 0,0 23.250,33.950 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d ="M 26.250,33.950 A 0.500,0.500 0 0,0 26.750,33.450 "/>
+<text x="24.750" y="33.245"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Storing</text>
+<line x1="25.133" y1="18.600" x2="25.111" y2="19.027" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="24.881,18.626 25.106,19.138 25.380,18.651 "/>
+<line x1="26.100" y1="20.250" x2="29.696" y2="23.451" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="29.239,23.380 29.779,23.526 29.572,23.006 "/>
+<line x1="24.100" y1="20.250" x2="19.906" y2="23.127" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="20.085,22.701 19.814,23.190 20.368,23.113 "/>
+<line x1="19.009" y1="25.950" x2="24.598" y2="31.986" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="24.151,31.871 24.674,32.068 24.518,31.531 "/>
+<line x1="30.135" y1="26.300" x2="24.901" y2="31.985" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="24.980,31.531 24.826,32.068 25.348,31.869 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="26.750,33.050 38.550,33.050 38.550,17.700 28.639,17.700 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="29.027,17.450 28.527,17.700 29.027,17.950 "/>
+<text x="26.050" y="15.700"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Active</text>
+<text x="31.350" y="32.650"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Storred</text>
+<text x="28.450" y="28.700"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Event generated</text>
+<text x="16.000" y="28.750"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Item generated</text>
+<text x="27.500" y="20.950"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Transaction request</text>
+<text x="18.050" y="20.950"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Query request</text>
+<line x1="18.241" y1="8.500" x2="18.218" y2="9.976" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="17.974,9.584 18.217,10.088 18.474,9.592 "/>
+<line x1="18.808" y1="12.100" x2="20.386" y2="14.567" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="19.966,14.375 20.446,14.662 20.388,14.106 "/>
+<line x1="20.962" y1="34.749" x2="19.591" y2="37.058" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="19.574,36.596 19.534,37.154 20.004,36.852 "/>
+<text x="17.400" y="39.300"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Shutdown</text>
+</svg>

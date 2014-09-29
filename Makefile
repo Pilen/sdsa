@@ -22,6 +22,8 @@ figures:
 	inkscape -z -D --file=figures/r1-sequence.svg --export-pdf=figures/r1-sequence.pdf
 	inkscape -z -D --file=figures/r2-sequence.svg --export-pdf=figures/r2-sequence.pdf
 	inkscape -z -D --file=figures/functional-view.svg --export-pdf=figures/functional-view.pdf
+	inkscape -z -D --file=figures/concurrency-model.svg --export-pdf=figures/concurrency-model.pdf
+	inkscape -z -D --file=figures/state-model.svg --export-pdf=figures/state-model.pdf
 	inkscape -z -D --file=figures/dev_module_structure.svg --export-pdf=figures/dev_module_structure.pdf
 
 spell:

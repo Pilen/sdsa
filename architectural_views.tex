@@ -319,6 +319,7 @@ To enable ACID, we shall also use a log-everything-scheme, meaning that every pr
 \label{sec:archive-retention}
 
 
+\newpage
 \section{Concurrency view}
 \label{sec:concurrency-view}
 
@@ -326,11 +327,43 @@ To enable ACID, we shall also use a log-everything-scheme, meaning that every pr
 \subsection{Concurrency model}
 \label{sec:concurrency-model}
 
+\begin{figure}[h!]
+    \centering
+    \caption{The concurrency model}
+    \includegraphics[width=0.8\textwidth]{figures/concurrency-model}
+    \label{fig:concurrency-model}
+\end{figure}
+
+From figure\ref{fig:concurrency-model} it can be seen that the application consists of
+three categrories of components, the webserver, the application and the database.
+The webserver is the entry point for the application to relive this bottleneck
+the application will be designed with a heavy degree of parallelism in mind.
+
+
+Figure \ref{fig:} shows the concurrency model of our system.
+The entry point being the webserver uses the Request Forwarder to distribute
+requests over multiple workers. There are two primary worker groups, the Query
+handlers and the Transaction handlers. These processes will all run virtualized on servers
+created depending on the loadfactor of the system. This ensures that the request
+handling, atleast, wont be the bottleneck of the system as it can scale
+horizontally. The item store and event log runs on their own cloud servers with
+associated databases. Depending on the exact database technology this might also
+allow some degree of horizontal scaling.
+
 
 \subsection{State model}
 \label{sec:state-model}
 
+\begin{figure}[h!]
+  \centering
+  \caption{The state model}
+  \includegraphics[width=0.8\textwidth]{figures/state-model}
+  \label{fig:state-model}
+\end{figure}
 
+In figure\ref{fig:state-model} we see the state diagram for one conceptual
+worker. Multiple request handlers can be spawned for both Querys and
+Transactions as needed so we only look at the state for one such.
 \section{Deployment view}
 \label{sec:deployment-view}
 
@@ -443,6 +476,3 @@ them and inserting instrumentation configuration where necessary.
 
 \subsection{Provision of support}
 \label{sec:provision-support}
-
-
-
