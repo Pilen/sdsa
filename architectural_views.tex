@@ -350,23 +350,81 @@ To enable ACID, we shall also use a log-everything-scheme, meaning that every pr
 
 \section{Development view}
 \label{sec:development-view}
-
+This section describes the environment the system is to be developed in. To
+allow for the rapid changes in technologies, the environment description goes
+into detail where possible, and leaves the choice open when necessary.
 
 \subsection{Module structure}
 \label{sec:module-structure}
+The module structure is shown in figure \ref{fig:dev_module_structure}, where
+the different modules has been categorized into layers.
 
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/dev_module_structure}
+    \label{fig:dev_module_structure}
+    \caption{The modules and components decomposed into layers}
+\end{figure}
 
 \subsection{Common design}
 \label{sec:common-design}
+This section outlines common design goals for services and internal components.
 
+\begin{itemize}
+    \item All code components should utilize Dependency Injection for their
+        internal dependencies. This shall be accomplished with the appropriate
+        DI-container for the chosen environment.
+    \item Logging in each component shall adhere to a standard message format.
+        Furthermore to allow for interoperability between different systems, a
+        common syslog or SNMP interface is desired. This aspect relates closely
+        to the DI aspect and as such defines a strong reliance on modular code,
+        that can be instrumented easily.
+    \item Each component shall be run as a service, defining an interface
+        either with an appropriate protocol or as a HTTP-service.
+    \item Authentication shall be done between services. Services defining an
+        HTTP interface shall use basic-auth, other protocols must define the
+        necessary security primitives.
+\end{itemize}
 
 \subsection{Standards for design, code, and test}
 \label{sec:stand-design-code}
+In the following we briefly define the standards for developing the system. The
+backbone of the development process is agile development, and as such the
+standards define what needs to be done within one iteration and what processes
+surround the development iterations, this relates closely to the operational
+view(See section \ref{sec:operational-view}).
+
+\begin{itemize}
+    \item Components shall focus on one single task and only provide
+        functionality within that scope. The interface for a component shall
+        follow common guidelines for good interface design, and further adhere
+        to the wish of DI.
+    \item Building is done via the preferred or dictated build system for the
+        chosen technical environment. If the environment doesn't specify one
+        Apache Maven could be desirable.
+    \item All modules/components must be contained within them self, and
+        therefore unit tests are done separately for each unit of code. All
+        modules must be registered with the central continuous integration
+        system.
+    \item Integration tests are kept within the main project, and are mainly
+        targeted at nightly builds or builds intended for deployment.
+    \item Configuration and source code shall be kept in separate version
+        control repositories. The Git versioning system is chosen as the
+        primary VC.
+    \item The licence of external dependencies shall be as liberal as possible,
+        but the guiding principle shall be quality of the external module.
+\end{itemize}
 
 
 \subsection{Codeline organization}
 \label{sec:codel-organ}
+The modules are expected to be self-contained and as such no common structure
+is required. It is desired that each component gathers a group of modules,
+which are contained in their own repository and included with the package
+management system of choice within the chosen technical solution.
 
+The main project is then reduced to glueing together the modules by starting
+them and inserting instrumentation configuration where necessary. 
 
 \section{Operational view}
 \label{sec:operational-view}
