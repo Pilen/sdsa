@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="58cm" height="35cm" viewBox="130 95 1143 686" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="160" y="132" width="1080" height="140"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="160" y="132" width="1080" height="140"/>
+    <rect style="fill: #ffffff" x="160" y="96" width="73.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="160" y="96" width="73.3" height="36"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="162" y="111">&lt;&lt;layer&gt;&gt;</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="162" y="127">Frontend</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="160" y="359.5" width="720" height="201"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="160" y="359.5" width="720" height="201"/>
+    <rect style="fill: #ffffff" x="160" y="323.5" width="81" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="160" y="323.5" width="81" height="36"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="162" y="338.5">&lt;&lt;layer&gt;&gt;</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="162" y="354.5">Processing</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="920" y="360" width="320" height="201"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="920" y="360" width="320" height="201"/>
+    <rect style="fill: #ffffff" x="920" y="324" width="73.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="920" y="324" width="73.3" height="36"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="922" y="339">&lt;&lt;layer&gt;&gt;</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="922" y="355">Utilities</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="160" y="640" width="1080" height="140"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="160" y="640" width="1080" height="140"/>
+    <rect style="fill: #ffffff" x="160" y="604" width="73.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="160" y="604" width="73.3" height="36"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="162" y="619">&lt;&lt;layer&gt;&gt;</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="162" y="635">Platform</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="940" y="400" width="118.2" height="30.3444"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="940" y="400" width="118.2" height="30.3444"/>
+    <rect style="fill: #ffffff" x="940" y="382" width="30" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="940" y="382" width="30" height="18"/>
+    <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="946" y="419.65">
+      <tspan x="946" y="419.65">Transactions</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="180" y="680" width="135.9" height="30.3444"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="180" y="680" width="135.9" height="30.3444"/>
+    <rect style="fill: #ffffff" x="180" y="662" width="30" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="180" y="662" width="30" height="18"/>
+    <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="186" y="699.65">
+      <tspan x="186" y="699.65">DatabaseAccess</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="340" y="680" width="144.75" height="30.3444"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="340" y="680" width="144.75" height="30.3444"/>
+    <rect style="fill: #ffffff" x="340" y="662" width="30" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="340" y="662" width="30" height="18"/>
+    <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="346" y="699.65">
+      <tspan x="346" y="699.65">StandardLibrary</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="500" y="680" width="180.15" height="30.3444"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="500" y="680" width="180.15" height="30.3444"/>
+    <rect style="fill: #ffffff" x="500" y="662" width="30" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="500" y="662" width="30" height="18"/>
+    <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="506" y="699.65">
+      <tspan x="506" y="699.65">MessageQueueDrivers</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1240,202 1270.01,202 1270.01,460.5 1247.72,460.5 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1260.36,455.5 1244.36,460.5 1260.36,465.5 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="700,273.009 700,312.254 520,312.254 520,352.795 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="515,340.147 520,356.147 525,340.147 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="520,561.506 520,596.753 700,596.753 700,633.295 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="695,620.647 700,636.647 705,620.647 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="158.992,202 131,202 131,710 153.295,710 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="140.647,715 156.647,710 140.647,705 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="880,460 896,460 896,460.5 913.295,460.5 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="900.647,465.5 916.647,460.5 900.647,455.5 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="940" y="460" width="91.65" height="30.3444"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="940" y="460" width="91.65" height="30.3444"/>
+    <rect style="fill: #ffffff" x="940" y="442" width="30" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="940" y="442" width="30" height="18"/>
+    <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="946" y="479.65">
+      <tspan x="946" y="479.65">DataTypes</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="180" y="400" width="215.55" height="30.3444"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="180" y="400" width="215.55" height="30.3444"/>
+    <rect style="fill: #ffffff" x="180" y="382" width="30" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="180" y="382" width="30" height="18"/>
+    <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="186" y="419.65">
+      <tspan x="186" y="419.65">ByuerTransactionHandler</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="180" y="480" width="224.4" height="30.3444"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="180" y="480" width="224.4" height="30.3444"/>
+    <rect style="fill: #ffffff" x="180" y="462" width="30" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="180" y="462" width="30" height="18"/>
+    <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="186" y="499.65">
+      <tspan x="186" y="499.65">SellerTransactionHandler</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="460" y="480" width="171.3" height="30.3444"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="480" width="171.3" height="30.3444"/>
+    <rect style="fill: #ffffff" x="460" y="462" width="30" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="462" width="30" height="18"/>
+    <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="466" y="499.65">
+      <tspan x="466" y="499.65">SellerQueryHandler</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="460" y="400" width="162.45" height="30.3444"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="400" width="162.45" height="30.3444"/>
+    <rect style="fill: #ffffff" x="460" y="382" width="30" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="382" width="30" height="18"/>
+    <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="466" y="419.65">
+      <tspan x="466" y="419.65">ByuerQueryHandler</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="180" y="172" width="91.65" height="30.3444"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="180" y="172" width="91.65" height="30.3444"/>
+    <rect style="fill: #ffffff" x="180" y="154" width="30" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="180" y="154" width="30" height="18"/>
+    <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="186" y="191.65">
+      <tspan x="186" y="191.65">WebServer</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="300" y="172" width="144.75" height="30.3444"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="300" y="172" width="144.75" height="30.3444"/>
+    <rect style="fill: #ffffff" x="300" y="154" width="30" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="300" y="154" width="30" height="18"/>
+    <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="306" y="191.65">
+      <tspan x="306" y="191.65">RequestForwader</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="480" y="172" width="162.45" height="30.3444"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="480" y="172" width="162.45" height="30.3444"/>
+    <rect style="fill: #ffffff" x="480" y="154" width="30" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="480" y="154" width="30" height="18"/>
+    <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="486" y="191.65">
+      <tspan x="486" y="191.65">ResponseRendering</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1080" y="400" width="73.95" height="30.3444"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1080" y="400" width="73.95" height="30.3444"/>
+    <rect style="fill: #ffffff" x="1080" y="382" width="30" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1080" y="382" width="30" height="18"/>
+    <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1086" y="419.65">
+      <tspan x="1086" y="419.65">Logging</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1080" y="460" width="144.75" height="30.3444"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1080" y="460" width="144.75" height="30.3444"/>
+    <rect style="fill: #ffffff" x="1080" y="442" width="30" height="18"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1080" y="442" width="30" height="18"/>
+    <text font-size="14.6756" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1086" y="479.65">
+      <tspan x="1086" y="479.65">Instrumentation</tspan>
+    </text>
+  </g>
+</svg>
