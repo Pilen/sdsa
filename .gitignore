@@ -89,6 +89,7 @@ sympy-plots-for-*.tex/
 *.xdy
 
 Online-Rental-System.pdf
-figures/context_drawing.pdf
+figures/*.pdf
+figures/*.dia~
 
 auto
