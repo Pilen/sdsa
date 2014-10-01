@@ -489,18 +489,48 @@ them and inserting instrumentation configuration where necessary.
 
 \section{Operational view}
 \label{sec:operational-view}
+This section shows how the operational environment of the system is to be created and maintained. The components of this view are described in section \ref{sec:deployment-view}. In figure \ref{fig:logic_comp} we see the components to be installed and operated.
+
+\begin{figure}[h!]
+  \centering
+  \caption{Overview of logical components}
+  \includegraphics[width=0.8\textwidth]{figures/deployment_view}
+  \label{fig:logic_comp}
+\end{figure}
+
 
 \subsection{Installation and migration}
 \label{sec:inst-migr}
+The following steps are required to install the ORS platform in reference of figure \ref{fig:logic_comp}.
 
+Specifically for this installation guide, it is expected to be runned on Amazon cloud, utilizing AWS (Amazon Web Services) DynamoDB, AWS Beanstalk and AWS S3 (Simple Storage Service). Thus all components are logically divided (each to its own instance) and easily scaled up.
+
+Note that this installation does not handle the configuration of the billing service.
+\begin{enumerate}
+    \item \label{enum:inst-migr_buy} Buy Amazon cloud services, DynamoDB, 
+    Beanstalk and S3. All following components is to be installed on these. Buy domain name and SSL certificates.
+    \item \label{enum:inst-migr_wb} Install and configure the webserver (static files) (The configuration is currently setup via a text-based config-files, read at runtime) according to domains and certificates as of \ref{enum:inst-migr_buy}.
+    \item \label{enum:inst-migr_db} Install and configure the database systems DynamoDB and Redis, handling \texttt{Item Store} and \texttt{Event log} respectively.
+    \item \label{enum:inst-migr_bs} Get access to billing service and configure it to point to \ref{enum:inst-migr_buy}.
+    \item Download and install Java 8.
+    \item Install the backend, the Application layer, of ORS and configure it to point to location of \ref{enum:inst-migr_wb} and \ref{enum:inst-migr_db} (The configuration is currently setup via a text-based config-files, read at runtime). Note that the configuration of the payment proxy depends on \ref{enum:inst-migr_bs}. Internally of the Application layer, the cloud service provides and delegates addresses of instances.
+    \item Test the installation by either manually accessing and using site or by automatic test cases (currently not developed).
+\end{enumerate}
 
 \subsection{Operational configuration management}
 \label{sec:oper-conf-manag}
+
 
 
 \subsection{System administration}
 \label{sec:syst-admin}
 
 
+
 \subsection{Provision of support}
 \label{sec:provision-support}
+Users are the only stakeholders that will recieve support through ORS. This support will be handled by administrators of the site as first level supporters and ORS developers at second level.
+
+Administrators will also handle payment support, and might direct it to the chosen billing service provider.
+
+Support is provided through an email going to the administrators, who can delegate cases to second level if necessary.

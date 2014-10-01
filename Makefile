@@ -28,7 +28,7 @@ figures:
 	inkscape -z -D --file=figures/data_structure.svg --export-pdf=figures/data_structure.pdf
 	inkscape -z -D --file=figures/data_flow.svg --export-pdf=figures/data_flow.pdf
 	inkscape -z -D --file=figures/information_lifecycle0.svg --export-pdf=figures/information_lifecycle0.pdf
-
+	inkscape -z -D --file=figures/deployment_view.svg --export-pdf=figures/deployment_view.pdf
 
 spell:
 	for file in $(TEX_FILES); do aspell --lang en_GB -t -c $$file; done

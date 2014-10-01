@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+<svg width="38.205cm" height="53.027cm" viewBox="7.164 -8.540 45.369 44.488"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="7.214" y="12.087" width="37.086" height="22.350" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="7.214" y="12.087" width="37.086" height="22.350" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="9.250" y="37.335" width="24.660" height="7.102" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="9.250" y="37.335" width="24.660" height="7.102" fill="none" stroke="#000000" stroke-width="0.100" />
+<rect x="15.350" y="3.676" width="13.381" height="4.312" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="15.350" y="3.676" width="13.381" height="4.312" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="22.041" y="6.027"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+WEBSERVER</text>
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 23.952,-6.573 C 23.302,-6.596 22.040,-6.115 22.218,-5.086 C 22.395,-4.057 23.243,-3.828 23.598,-4.125 C 23.952,-4.423 23.046,-2.684 24.780,-2.227 C 26.515,-1.769 27.402,-2.501 27.146,-3.027 C 26.889,-3.553 28.663,-1.792 29.491,-2.798 C 30.319,-3.805 28.644,-4.766 28.998,-4.628 C 29.353,-4.491 30.437,-4.674 30.083,-6.390 C 29.728,-8.105 26.535,-6.779 26.889,-7.030 C 27.244,-7.282 26.357,-8.540 25.253,-8.288 C 24.150,-8.037 24.071,-7.580 23.953,-6.574 L 23.952,-6.573 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 23.952,-6.573 C 23.302,-6.596 22.040,-6.115 22.218,-5.086 C 22.395,-4.057 23.243,-3.828 23.598,-4.125 C 23.952,-4.423 23.046,-2.684 24.780,-2.227 C 26.515,-1.769 27.402,-2.501 27.146,-3.027 C 26.889,-3.553 28.663,-1.792 29.491,-2.798 C 30.319,-3.805 28.644,-4.766 28.998,-4.628 C 29.353,-4.491 30.437,-4.674 30.083,-6.390 C 29.728,-8.105 26.535,-6.779 26.889,-7.030 C 27.244,-7.282 26.357,-8.540 25.253,-8.288 C 24.150,-8.037 24.071,-7.580 23.953,-6.574 L 23.952,-6.573 "/>
+<text x="26.464" y="-4.835"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Users</text>
+<rect x="20.348" y="13.808" width="3.413" height="2.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="20.348" y="13.808" width="3.413" height="2.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="22.054" y="14.953"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Action</text>
+<text x="22.054" y="15.753"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Control</text>
+<rect x="25.000" y="29.413" width="5.135" height="2.432" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="25.000" y="29.413" width="5.135" height="2.432" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="27.568" y="30.823"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Event log</text>
+<rect x="16.801" y="29.375" width="5.248" height="2.387" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="16.801" y="29.375" width="5.248" height="2.387" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="19.426" y="30.763"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Item Store</text>
+<rect x="38.100" y="18.850" width="3.903" height="2.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="38.100" y="18.850" width="3.903" height="2.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="40.051" y="19.995"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Payment</text>
+<text x="40.051" y="20.795"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Proxy</text>
+<rect x="30.328" y="18.828" width="5.090" height="2.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="30.328" y="18.828" width="5.090" height="2.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="32.873" y="19.973"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Transaction</text>
+<text x="32.873" y="20.773"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Handler</text>
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 37.940,3.596 C 37.195,3.578 35.750,3.968 35.953,4.803 C 36.156,5.639 37.127,5.824 37.534,5.583 C 37.940,5.341 36.902,6.752 38.888,7.124 C 40.875,7.495 41.891,6.901 41.598,6.474 C 41.304,6.047 43.336,7.476 44.285,6.660 C 45.233,5.843 43.314,5.063 43.720,5.174 C 44.127,5.286 45.369,5.137 44.962,3.745 C 44.556,2.353 40.898,3.429 41.304,3.225 C 41.711,3.021 40.695,2.000 39.430,2.204 C 38.166,2.408 38.076,2.779 37.941,3.596 L 37.940,3.596 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 37.940,3.596 C 37.195,3.578 35.750,3.968 35.953,4.803 C 36.156,5.639 37.127,5.824 37.534,5.583 C 37.940,5.341 36.902,6.752 38.888,7.124 C 40.875,7.495 41.891,6.901 41.598,6.474 C 41.304,6.047 43.336,7.476 44.285,6.660 C 45.233,5.843 43.314,5.063 43.720,5.174 C 44.127,5.286 45.369,5.137 44.962,3.745 C 44.556,2.353 40.898,3.429 41.304,3.225 C 41.711,3.021 40.695,2.000 39.430,2.204 C 38.166,2.408 38.076,2.779 37.941,3.596 L 37.940,3.596 "/>
+<text x="40.817" y="4.644"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Payment</text>
+<text x="40.817" y="5.444"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+service</text>
+<rect x="10.248" y="19.111" width="3.955" height="2.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="10.248" y="19.111" width="3.955" height="2.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="12.225" y="20.256"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Query</text>
+<text x="12.225" y="21.056"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Handler</text>
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 25.970,39.999 C 26.630,39.524 26.960,39.366 27.620,39.366 C 28.280,39.366 28.610,39.524 29.270,39.999 L 29.270,42.533 C 28.610,43.008 28.280,43.166 27.620,43.166 C 26.960,43.166 26.630,43.008 25.970,42.533 L 25.970,39.999 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 25.970,39.999 C 26.630,39.524 26.960,39.366 27.620,39.366 C 28.280,39.366 28.610,39.524 29.270,39.999 L 29.270,42.533 C 28.610,43.008 28.280,43.166 27.620,43.166 C 26.960,43.166 26.630,43.008 25.970,42.533 L 25.970,39.999 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 25.970,39.999 C 26.630,40.474 26.960,40.633 27.620,40.633 C 28.280,40.633 28.610,40.474 29.270,39.999 "/>
+<text x="27.620" y="41.383"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Cloud</text>
+<text x="27.620" y="42.183"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Storage</text>
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 17.814,39.926 C 18.474,39.451 18.804,39.292 19.464,39.292 C 20.124,39.292 20.454,39.451 21.114,39.926 L 21.114,42.459 C 20.454,42.934 20.124,43.092 19.464,43.092 C 18.804,43.092 18.474,42.934 17.814,42.459 L 17.814,39.926 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 17.814,39.926 C 18.474,39.451 18.804,39.292 19.464,39.292 C 20.124,39.292 20.454,39.451 21.114,39.926 L 21.114,42.459 C 20.454,42.934 20.124,43.092 19.464,43.092 C 18.804,43.092 18.474,42.934 17.814,42.459 L 17.814,39.926 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 17.814,39.926 C 18.474,40.401 18.804,40.559 19.464,40.559 C 20.124,40.559 20.454,40.401 21.114,39.926 "/>
+<text x="19.464" y="41.309"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Cloud</text>
+<text x="19.464" y="42.109"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Storage</text>
+<text x="8.581" y="13.708"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+APPLICATION</text>
+<text x="9.995" y="38.492"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+DATABASE</text>
+<path stroke="none" fill="#FFFFFF" stroke-width="0.100" d="M 16.500,-6.191 C 15.974,-6.207 14.952,-5.875 15.096,-5.165 C 15.240,-4.454 15.926,-4.296 16.213,-4.501 C 16.500,-4.707 15.766,-3.507 17.170,-3.191 C 18.575,-2.875 19.293,-3.380 19.085,-3.743 C 18.878,-4.107 20.314,-2.891 20.984,-3.586 C 21.654,-4.280 20.298,-4.944 20.585,-4.849 C 20.872,-4.754 21.750,-4.880 21.463,-6.065 C 21.176,-7.249 18.591,-6.333 18.878,-6.507 C 19.165,-6.681 18.447,-7.549 17.553,-7.375 C 16.660,-7.202 16.596,-6.886 16.501,-6.192 L 16.500,-6.191 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100"  d="M 16.500,-6.191 C 15.974,-6.207 14.952,-5.875 15.096,-5.165 C 15.240,-4.454 15.926,-4.296 16.213,-4.501 C 16.500,-4.707 15.766,-3.507 17.170,-3.191 C 18.575,-2.875 19.293,-3.380 19.085,-3.743 C 18.878,-4.107 20.314,-2.891 20.984,-3.586 C 21.654,-4.280 20.298,-4.944 20.585,-4.849 C 20.872,-4.754 21.750,-4.880 21.463,-6.065 C 21.176,-7.249 18.591,-6.333 18.878,-6.507 C 19.165,-6.681 18.447,-7.549 17.553,-7.375 C 16.660,-7.202 16.596,-6.886 16.501,-6.192 L 16.500,-6.191 "/>
+<text x="18.533" y="-4.930"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Admins</text>
+<line x1="22.041" y1="7.987" x2="22.050" y2="13.174" stroke="#000000" stroke-width="0.100" />
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="21.800,13.174 22.051,13.674 22.300,13.173 "/>
+<line x1="25.809" y1="-2.079" x2="25.386" y2="3.676" stroke="#000000" stroke-width="0.100" />
+<line x1="18.003" y1="-3.089" x2="18.695" y2="3.676" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="20.348,15.158 12.225,15.158 12.225,18.500 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="11.975,18.500 12.225,19.000 12.475,18.500 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="11.975,18.500 12.225,19.000 12.475,18.500 "/>
+<line x1="19.426" y1="31.761" x2="19.461" y2="38.681" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="19.211,38.682 19.464,39.180 19.711,38.679 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="19.211,38.682 19.464,39.180 19.711,38.679 "/>
+<line x1="27.568" y1="31.844" x2="27.616" y2="38.754" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="27.366,38.756 27.619,39.254 27.866,38.752 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="27.366,38.756 27.619,39.254 27.866,38.752 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="23.760,15.158 32.873,15.158 32.873,18.217 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="32.623,18.217 32.873,18.717 33.123,18.217 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="32.623,18.217 32.873,18.717 33.123,18.217 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="12.225,21.811 12.225,30.568 16.190,30.568 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="16.190,30.818 16.690,30.568 16.190,30.318 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="16.190,30.818 16.690,30.568 16.190,30.318 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="32.873,21.528 32.873,30.628 30.747,30.628 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="30.747,30.378 30.247,30.628 30.747,30.878 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="30.747,30.378 30.247,30.628 30.747,30.878 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="32.873,21.528 32.873,22.712 19.426,22.712 19.426,28.713 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="19.176,28.713 19.426,29.213 19.676,28.713 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="19.176,28.713 19.426,29.213 19.676,28.713 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="12.225,21.811 12.225,25.612 27.568,25.612 27.568,28.801 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="27.318,28.801 27.568,29.301 27.818,28.801 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="27.318,28.801 27.568,29.301 27.818,28.801 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="35.468,20.178 36.759,20.178 36.759,20.200 37.438,20.200 "/>
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="37.438,20.450 37.938,20.200 37.438,19.950 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="37.438,20.450 37.938,20.200 37.438,19.950 "/>
+<line x1="40.053" y1="18.800" x2="40.066" y2="7.855" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#FFFFFF" stroke="none" stroke-width="0.100" points="40.316,7.855 40.066,7.355 39.816,7.855 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="40.316,7.855 40.066,7.355 39.816,7.855 "/>
+</svg>
