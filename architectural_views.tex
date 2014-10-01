@@ -519,12 +519,43 @@ Note that this installation does not handle the configuration of the billing ser
 
 \subsection{Operational configuration management}
 \label{sec:oper-conf-manag}
+The system relies on the AmazonWebServices(AWS) to provide all underlying
+infrastructure, this frees us from configuring operating systems and the actual
+running software, except of course for the things developed.
 
+The following configuration groups has been identified:
+
+\begin{description}
+    \item[AWS] The S3 storage and Route53 needs configuration, to host
+        the static files for the website.
+        Amazon Beanstalk,needs configuration for the parameters:
+        scalability, performance and component specifics.
+        Dynamo DB needs to be configured for the scalability parameters of
+        the application components(Tuning the CAP).
+    \item[Redis] requires us to maintain the operating system and the complete 
+        stack surrounding the Redis cluster.
+\end{description}
+
+It is identified that the Webserver and Application components share
+configuration values for the endpoint-address configuration - within the AWS
+configuration group.
+
+This constitutes the component needing configuration. A somewhat larger
+overhead is carried, due to the use of AWS, but the costs reduced by not
+managing servers and OS is paramount.
 
 
 \subsection{System administration}
 \label{sec:syst-admin}
+The main part of the system is deployed on AWS which as a platform provides
+logging facilities and monitoring. It is planned to use these as much as
+possible.
 
+The Redis service is going to run on an EC2 instance, where we will utilise the
+AWS SDK to report performance metrics and monitor the health of the services.
+
+It is believed that the main way of system failure notification will be by SMS
+and email, depending on severity.
 
 
 \subsection{Provision of support}
