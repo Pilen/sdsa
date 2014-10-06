@@ -524,6 +524,28 @@ management system of choice within the chosen technical solution.
 The main project is then reduced to glueing together the modules by starting
 them and inserting instrumentation configuration where necessary.
 
+\begin{verbatim}
+ORS/
+|- module1/
+|- |- pom.xml
+|- |- src
+|- |- test
+|- module2/
+|- |- pom.xml
+|- |- ...
+|- module3/
+|- |- pom.xml
+|- |- ...
+|- module4/
+|- |- pom.xml
+|- |- ...
+|- configurations/
+|- |- urls.json
+|- |- dbs.json
+|- site/
+|- |- index.html
+\end{verbatim}
+
 \section{Operational view}
 \label{sec:operational-view}
 This section shows how the operational environment of the system is to be created and maintained. The components of this view are described in section \ref{sec:deployment-view}. In figure \ref{fig:logic_comp} we see the components to be installed and operated.
