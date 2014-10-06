@@ -399,15 +399,52 @@ Transactions as needed so we only look at the state for one such.
 \subsection{Runtime platform model}
 \label{sec:runt-platf-model}
 
+We will rely on Amazon's cloud services AWS for the infrastructure.
+Most notably we will use EC2 virtual servers to run Application handlers, both
+Query handlers, and Transaction handlers. For datastorage including the Item
+store and the Event log we will use Amazon's DynamoDB instances and for static
+content on the page we will use their S3 instances.
+
+Amazon makes it easy to add further instances or scale up to better hardware,
+this means we are not bound to a specific set of hardware requirements, instead
+we can scale as currently needed.
+
+Similarly it is possible to scale the size and throughput of our database
+instance to suit our need.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.9\textwidth]{figures/runtime-platform-model}
+  \label{fig:runtime-platform-model}
+  \caption{The runtime platform model}
+\end{figure}
 
 
 \subsection{Software dependencies}
 \label{sec:softw-depend}
+Our software requirements are fairly simple.
+As we rely on Java we have very low requirements for operating systems which
+fits our model of simple virtual machines well.
+We will use AWS Elastic beanstalk as our way for deployment.
 
-
+\begin{table}[h!]
+  \centering
+  \begin{tabular}[h]{l|l|l}
+    Software & \textit{Library}  & Version \\
+    \hline
+    Java & & 8 \\
+    & AWS SDK for Java & 1.8+ \\
+    AWS Elastic Beanstalk & & \\
+  \end{tabular}
+  \caption{Software dependencies}
+  \label{tab:software-dependencies}
+\end{table}
 \subsection{Network model}
 \label{sec:network-model}
 
+The network is handled by Amazon, we will simply have to track which services
+are running where. Communication is done via HTTP REST requests so no special
+network setup is needed.
 
 \section{Development view}
 \label{sec:development-view}
@@ -485,7 +522,7 @@ which are contained in their own repository and included with the package
 management system of choice within the chosen technical solution.
 
 The main project is then reduced to glueing together the modules by starting
-them and inserting instrumentation configuration where necessary. 
+them and inserting instrumentation configuration where necessary.
 
 \section{Operational view}
 \label{sec:operational-view}
@@ -507,7 +544,7 @@ Specifically for this installation guide, it is expected to be runned on Amazon 
 
 Note that this installation does not handle the configuration of the billing service.
 \begin{enumerate}
-    \item \label{enum:inst-migr_buy} Buy Amazon cloud services, DynamoDB, 
+    \item \label{enum:inst-migr_buy} Buy Amazon cloud services, DynamoDB,
     Beanstalk and S3. All following components is to be installed on these. Buy domain name and SSL certificates.
     \item \label{enum:inst-migr_wb} Install and configure the webserver (static files) (The configuration is currently setup via a text-based config-files, read at runtime) according to domains and certificates as of \ref{enum:inst-migr_buy}.
     \item \label{enum:inst-migr_db} Install and configure the database systems DynamoDB and Redis, handling \texttt{Item Store} and \texttt{Event log} respectively.
@@ -532,7 +569,7 @@ The following configuration groups has been identified:
         scalability, performance and component specifics.
         Dynamo DB needs to be configured for the scalability parameters of
         the application components(Tuning the CAP).
-    \item[Redis] requires us to maintain the operating system and the complete 
+    \item[Redis] requires us to maintain the operating system and the complete
         stack surrounding the Redis cluster.
 \end{description}
 
