@@ -362,13 +362,13 @@ User data should be hold by ORS as long as a user is active plus a couple of yea
     \label{fig:concurrency-model}
 \end{figure}
 
-From figure\ref{fig:concurrency-model} it can be seen that the application consists of
+From figure \ref{fig:concurrency-model} it can be seen that the application consists of
 three categrories of components, the webserver, the application and the database.
 The webserver is the entry point for the application to relive this bottleneck
 the application will be designed with a heavy degree of parallelism in mind.
 
 
-Figure \ref{fig:} shows the concurrency model of our system.
+Figure \ref{fig:concurrency-model} shows the concurrency model of our system.
 The entry point being the webserver uses the Request Forwarder to distribute
 requests over multiple workers. There are two primary worker groups, the Query
 handlers and the Transaction handlers. These processes will all run virtualized on servers

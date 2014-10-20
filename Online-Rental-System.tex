@@ -170,6 +170,14 @@
 \label{cha:arch-eval}
 \thispagestyle{fancy}
 
+\section{Consistency Across Views}
+\subsection{Functional and Concurrency View Consistency}
+Every functional element in the Functional view (see figure \ref{fig:funcView}) is mapped to a concurrency element in the Concurrency view (see figure \ref{fig:concurrency-model}). 
+
+We have not in the concurrency model separated any process, so the intercommunication between the processes is as described in the Functional view.
+
+Multiple functional elements are packaged into processes groups, but not into single processes. No functional elements are combined into one process.
+
 
 \chapter{Architectural prototype}
 \label{cha:arch-prot}
