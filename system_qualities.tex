@@ -21,7 +21,18 @@ We have not been able to performance test response time of Q3, but note that thi
 \section{Security}
 \label{sec:security}
 
+The user tries to access the site without valid credentials.
 
+\begin{table}
+\centering
+\begin{tabular}{p{5cm} | p{7cm}}
+Requirement & Fullfilling \\ \hline
+A user tries to access a page without valid credentials &
+    The frontend system, consults with the user database, that also maintains
+    Access Control Lists. This also supports having the administrative pages
+    within the main system.\\
+\end{tabular}
+\end{table}
 
 \section{Availability and resilience}
 \label{sec:avail-resil}
