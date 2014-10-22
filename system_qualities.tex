@@ -7,11 +7,11 @@
 \label{sec:perf-scal}
 The main performance and scalability requirements for ORS are Q1, Q3 and Q4 (see Section \ref{sec:syst-qual-scen}).
 
-Scaleability, corresponding to Q1, is not a problem as we are using Amazon Cloud (AWS); it can scale to well over 300.000 concurrent users at peak time, see \url{http://aws.amazon.com/solutions/case-studies/code-org/}. Thus scalability of ORS is dependent on our own developed software, which we are unable to test.
+Scaleability, corresponding to Q1, is not a problem as we are using Amazon Cloud (AWS); it can scale to well over 300.000 concurrent users at peak time, see \cite{amazonCaseStudy}. Thus scalability of ORS is dependent on our own developed software, which we are unable to test.
 
-Amazon Cloud (AWS) has a guaranteed uptime, corresponding to Q4, of $99.95\%$, see \url{http://aws.amazon.com/ec2/sla/}. Thus we need not worry about disc failures and other hardware problems, making the software (both the self developed system and the backend systems like the databases) the most significant weak point of availability of ORS.
+Amazon Cloud (AWS) has a guaranteed uptime, corresponding to Q4, of $99.95\%$, see \cite{amazonSla}. Thus we need not worry about disc failures and other hardware problems, making the software (both the self developed system and the backend systems like the databases) the most significant weak point of availability of ORS.
 
-Regarding Paypal, the only data we could find was based on December 2011, see \url{http://royal.pingdom.com/2012/02/02/uptime-and-performance-for-us-e-commerce-websites-during-december-2011-study/}. The uptime was $99.998\%$ but the response time of Paypal was very bad with 3.800 ms. According to \url{http://basicstate.com/htm/list.htm}, Paypal had in October an uptime around $93.89\%$ but a better response time of 118 ms.
+Regarding Paypal, the only data we could find was based on December 2011, see \cite{pingdom}. The uptime was $99.998\%$ but the response time of Paypal was very bad with 3.800 ms. According to \cite{basicState}, Paypal had in October an uptime around $93.89\%$ but a better response time of 118 ms.
 
 We have not been to test the stability of our own software, and are thus not able to estimate uptime or other performance related issues.
 
