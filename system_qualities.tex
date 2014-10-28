@@ -46,7 +46,7 @@ Access Control.
 
 The main requirements to be satisfied is Q2 and Q5, further the consequences of
 Q3 not being met is discussed loosely. The table
-\ref{tab-security:requirements}, describes the requirements and how they are
+\ref{tab:security-requirements}, describes the requirements and how they are
 fulfilled.
 
 Attack trees has been considered, as a tool to identify threats to the system.
@@ -97,7 +97,33 @@ therefore forced to pay twice, or contact support.
 
 \section{Availability and resilience}
 \label{sec:avail-resil}
+The ORS has three main A\&R requirements, Q1, Q3 and Q4, each concerning their
+own respective areas of availability and resilience. Each requirement will be
+loosely described and taken into account when applicable, but a separate
+discussion of each, doesn't seem appropriate, when considering the platform 
+choices made.
 
+The most prominent promise made by the requirements are Q4, where we guarantee
+and uptime of 95\% over a year. Secondly Q3 concerns the response times under
+normal load, and finally Q1 focuses on traffic spikes.
+
+The complete system relies on Amazon Web Services, to run each of the
+architectural components. And the promised uptime is therefore very dependent
+on what Amazon provides.
+
+The system can be broken into four service levels, if one part of the cloud
+should become unavailable.
+
+\begin{description}
+    \item[Normal] Every service is functioning normally, no errors detected
+    \item[No-pay] The PayPal service is unavailable, users should still be able
+        to rent items, but put payment off until later(when PayPal is again
+        responsive)
+    \item[Read-only] The rental part of the system is out of order(Transaction
+        manager), it should still be possible to browse items.
+    \item[Dead] The router service is unresponsive and the frontend of the
+        system is therefore inaccessible.
+\end{description}
 
 \section{Evolution}
 \label{sec:evolution}
