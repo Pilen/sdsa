@@ -5,17 +5,34 @@
 
 \section{Performance and scalability}
 \label{sec:perf-scal}
-The main performance and scalability requirements for ORS are Q1, Q3 and Q4 (see Section \ref{sec:syst-qual-scen}).
+The main performance and scalability requirements for ORS are Q1, Q3 and Q4
+(see Section \ref{sec:syst-qual-scen}).
 
-Scaleability, corresponding to Q1, is not a problem as we are using Amazon Cloud (AWS); it can scale to well over 300.000 concurrent users at peak time, see \cite{amazonCaseStudy}. Thus scalability of ORS is dependent on our own developed software, which we are unable to test.
+Scaleability, corresponding to Q1, is not a problem as we are using Amazon
+Cloud (AWS); it can scale to well over 300.000 concurrent users at peak time,
+see \cite{amazonCaseStudy}. Thus scalability of ORS is dependent on our own
+developed software, which we are unable to test.
 
-Amazon Cloud (AWS) has a guaranteed uptime, corresponding to Q4, of $99.95\%$, see \cite{amazonSla}. Thus we need not worry about disc failures and other hardware problems, making the software (both the self developed system and the backend systems like the databases) the most significant weak point of availability of ORS.
+Amazon Cloud (AWS) has a guaranteed uptime, corresponding to Q4, of $99.95\%$,
+see \cite{amazonSla}. Thus we need not worry about disc failures and other
+hardware problems, making the software (both the self developed system and the
+backend systems like the databases) the most significant weak point of
+availability of ORS.
 
-Regarding Paypal, the only data we could find was based on December 2011, see \cite{pingdom}. The uptime was $99.998\%$ but the response time of Paypal was very bad with 3.800 ms. According to \cite{basicState}, Paypal had in October an uptime around $93.89\%$ but a better response time of 118 ms.
+Regarding Paypal, the only data we could find was based on December 2011, see
+\cite{pingdom}. The uptime was $99.998\%$ but the response time of Paypal was
+very bad with 3.800 ms. According to \cite{basicState}, Paypal had in October
+an uptime around $93.89\%$ but a better response time of 118 ms.
 
-We have not been to test the stability of our own software, and are thus not able to estimate uptime or other performance related issues.
+We have not been to test the stability of our own software, and are thus not
+able to estimate uptime or other performance related issues.
 
-We have not been able to performance test response time of Q3, but note that this only concerns that our end of the system should respond within 0.1 seconds, not that the user should recieve a response within 0.1 seconds (which would be hard to guarantee due to network factors/constraints such as distance, speed and congestion). Thus we need to design our front-end to respond on user interaction fast.
+We have not been able to performance test response time of Q3, but note that
+this only concerns that our end of the system should respond within 0.1
+seconds, not that the user should recieve a response within 0.1 seconds (which
+would be hard to guarantee due to network factors/constraints such as distance,
+speed and congestion). Thus we need to design our front-end to respond on user
+interaction fast.
 
 
 \section{Security}
@@ -84,29 +101,44 @@ therefore forced to pay twice, or contact support.
 
 \section{Evolution}
 \label{sec:evolution}
-In table \ref{tab:evolution} is listed some likely evolutions and their expected magnitude (Lov/Medium/High), likelihood of being necessary (Low/Medium/High), and the timescale on which the evolution is expected to happen (Long/Medium/sHort).
+In table \ref{tab:evolution} is listed some likely evolutions and their
+expected magnitude (Lov/Medium/High), likelihood of being necessary
+(Low/Medium/High), and the timescale on which the evolution is expected to
+happen (Long/Medium/sHort).
 
-Many of the evolution types are of low likelihood, and those that are of medium or high likelihood are easy and fast to implement. The system is designed to be easily expanded in some aspects which are likely to happen. The highest priority evolution types are also those that are most likely to happen:
+Many of the evolution types are of low likelihood, and those that are of medium
+or high likelihood are easy and fast to implement. The system is designed to be
+easily expanded in some aspects which are likely to happen. The highest
+priority evolution types are also those that are most likely to happen:
+
 \begin{itemize}
-\item The addition of new query types are very likely, as more features are iteratively added to the system. This includes simple extensions on existing queries like more user information, but also new queries necessary to new features, like extraction of users based on location in case of a new map feature.
-\item Supporting twice the number of users. This is mostly handled in the cloud, but might include optimization of internal components.
-\item Addition of new functional components for end users, e.g. a calender service, a map service, a forum, etc.
-\item New external systems and their interfaces are likely when implementing new features and components, e.g. Google Map, Facebook, Twitter, etc. 
+\item The addition of new query types are very likely, as more features are
+iteratively added to the system. This includes simple extensions on existing
+queries like more user information, but also new queries necessary to new
+features, like extraction of users based on location in case of a new map
+feature.  
+\item Supporting twice the number of users. This is mostly handled in the
+    cloud, but might include optimization of internal components.
+\item Addition of new functional components for end users, e.g. a calender
+service, a map service, a forum, etc.  \item New external systems and their
+    interfaces are likely when implementing new features and components, e.g.
+    Google Map, Facebook, Twitter, etc. 
 \end{itemize}
 
-\begin{table}[ht]\label{tab:evolution}
-\centering
-\begin{tabular}{| p{5cm} | l | l | l | l |}
-    \hline
-    & Type & Magnitude & Likelihood & Timescale \\ \hline \hline
-    New query type (including expansion of DB system) & Functional & L & H & M \\ \hline
-    New component & Functional & M & M & M \\ \hline
-    New database system & Platform & H & L & H \\ \hline
-    New external interface/system & Functional & L & M & L \\ \hline
-    New logging protocol & Functional & M & L & H \\ \hline
-    Support twice the number of users & Growth & L & H & L \\ \hline
-    New billing site & Functional & L & L & L \\ \hline
-\end{tabular}
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{| p{5cm} | l | l | l | l |}
+            & Type & Magnitude & Likelihood & Timescale \\ \hline \hline
+        New query type (including expansion of DB system) & Functional & L & H
+            & M \\ \hline New component & Functional & M & M & M \\ \hline
+        New database system & Platform & H & L & H \\ \hline
+        New external interface/system & Functional & L & M & L \\ \hline
+        New logging protocol & Functional & M & L & H \\ \hline
+        Support twice the number of users & Growth & L & H & L \\ \hline
+        New billing site & Functional & L & L & L \\ \hline
+    \end{tabular}
+    \label{tab:evolution}
+    % Maybe caption ??
 \end{table}
 
 
