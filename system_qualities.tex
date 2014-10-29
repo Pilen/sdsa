@@ -44,17 +44,6 @@ sensitive as the before-mentioned types of data. The table
 \ref{tab:security-resources} defines and describes these resources, where AC is
 Access Control.
 
-The main requirements to be satisfied is Q2 and Q5, further the consequences of
-Q3 not being met is discussed loosely. The table
-\ref{tab:security-requirements}, describes the requirements and how they are
-fulfilled.
-
-Attack trees has been considered, as a tool to identify threats to the system.
-But the normal attack vectors against the chosen Amazon platforms has not been
-publicly been explored thoroughly enough to conclude what measures to take.
-Instead all code shall follow best practice for the platform and adhere to
-common security practices.
-
 \begin{table}[ht]
     \centering
     \begin{tabular}{p{3cm} | l | l | p{4cm}}
@@ -69,6 +58,11 @@ common security practices.
     \label{tab:security-resources}
     \caption{Security resources}
 \end{table}
+
+The main requirements to be satisfied is Q2 and Q5, further the consequences of
+Q3 not being met is discussed loosely. The table
+\ref{tab:security-requirements}, describes the requirements and how they are
+fulfilled.
 
 \begin{table}[ht]
     \centering
@@ -94,6 +88,19 @@ might be error pages, revealing internal details of the system, wanted by
 attackers. Further if the system suddenly becomes unresponsive, in the middle
 of a payment, a customers payment may not be correctly registered, and they are
 therefore forced to pay twice, or contact support.
+
+Attack trees has been considered, as a tool to identify threats to the system.
+But the normal attack vectors against the chosen Amazon platforms has not been
+publicly been explored thoroughly enough to conclude what measures to take.
+Instead all code shall follow best practice for the platform and adhere to
+common security practices. This doesn't leave the system to itself, without
+threats to consider, but at this point in time, the system doesn't seem to have
+competitors. This leaves the main threats being vandalism or political, which
+are not easily prepared against.
+
+Based on the above observations, we would implement a security policy, where a
+governing department of the organisation, shall keep the system in an
+up-to-date state with regards to security and hardening.
 
 \section{Availability and resilience}
 \label{sec:avail-resil}
